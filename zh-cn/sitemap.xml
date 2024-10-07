@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://allergy527.github.io/allergy.github.io/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <lastmod>2024-10-08T02:32:10+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -19,6 +19,22 @@
                 hreflang="zh-cn"
                 href="https://allergy527.github.io/allergy.github.io/"
                 />
+  </url><url>
+    <loc>https://allergy527.github.io/allergy.github.io/post/</loc>
+    <lastmod>2024-10-08T02:32:10+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://allergy527.github.io/allergy.github.io/ar/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://allergy527.github.io/allergy.github.io/post/"
+                />
+  </url><url>
+    <loc>https://allergy527.github.io/allergy.github.io/p/qwq/</loc>
+    <lastmod>2024-10-08T02:32:10+08:00</lastmod>
   </url><url>
     <loc>https://allergy527.github.io/allergy.github.io/categories/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
@@ -40,19 +56,6 @@
   </url><url>
     <loc>https://allergy527.github.io/allergy.github.io/p/test-chinese/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://allergy527.github.io/allergy.github.io/post/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://allergy527.github.io/allergy.github.io/ar/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://allergy527.github.io/allergy.github.io/post/"
-                />
   </url><url>
     <loc>https://allergy527.github.io/allergy.github.io/categories/test/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
