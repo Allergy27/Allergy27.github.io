@@ -2,55 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://allergy527.github.io/allergy.github.io/en/categories/</loc>
+    <loc>https://allergy527.github.io/blog/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://allergy527.github.io/allergy.github.io/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://allergy527.github.io/allergy.github.io/ar/categories/"
+                href="https://allergy527.github.io/blog/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://allergy527.github.io/allergy.github.io/en/categories/"
+                href="https://allergy527.github.io/blog/en/categories/"
                 />
   </url><url>
-    <loc>https://allergy527.github.io/allergy.github.io/en/</loc>
+    <loc>https://allergy527.github.io/blog/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://allergy527.github.io/allergy.github.io/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://allergy527.github.io/allergy.github.io/ar/"
+                href="https://allergy527.github.io/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://allergy527.github.io/allergy.github.io/en/"
+                href="https://allergy527.github.io/blog/en/"
                 />
   </url><url>
-    <loc>https://allergy527.github.io/allergy.github.io/en/tags/</loc>
+    <loc>https://allergy527.github.io/blog/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://allergy527.github.io/allergy.github.io/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://allergy527.github.io/allergy.github.io/ar/tags/"
+                href="https://allergy527.github.io/blog/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://allergy527.github.io/allergy.github.io/en/tags/"
+                href="https://allergy527.github.io/blog/en/tags/"
                 />
   </url>
 </urlset>
