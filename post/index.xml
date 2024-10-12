@@ -9,11 +9,11 @@
         <copyright>Allergy</copyright>
         <lastBuildDate>Sat, 12 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://allergy527.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>bm算法介绍</title>
-        <link>https://allergy527.github.io/p/test-chinese/</link>
+        <link>https://allergy527.github.io/p/boyer-moore-algorithm/</link>
         <pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://allergy527.github.io/p/test-chinese/</guid>
-        <description>&lt;img src="https://allergy527.github.io/p/test-chinese/Snipaste_2024-10-10_18-54-01.png" alt="Featured image of post bm算法介绍" /&gt;&lt;p&gt;&lt;strong&gt;简介:&lt;/strong&gt;
+        <guid>https://allergy527.github.io/p/boyer-moore-algorithm/</guid>
+        <description>&lt;img src="https://allergy527.github.io/p/boyer-moore-algorithm/Snipaste_2024-10-10_18-54-01.png" alt="Featured image of post bm算法介绍" /&gt;&lt;p&gt;&lt;strong&gt;简介:&lt;/strong&gt;
 [TOC]&lt;/p&gt;
 &lt;h2 id=&#34;boyer-moore算法介绍&#34;&gt;Boyer-Moore算法介绍
 &lt;/h2&gt;&lt;h3 id=&#34;概述&#34;&gt;概述
