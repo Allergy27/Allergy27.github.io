@@ -7,10 +7,22 @@
 <link rel='canonical' href='https://allergy527.github.io/en/categories/'>
 
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.18/dist/katex.min.css">
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.18/dist/katex.min.js"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.18/dist/contrib/auto-render.min.js"
-  onload="renderMathInElement(document.body);"></script>
+<link rel="stylesheet" href="/katex/katex.min.css">
+<script defer src="/katex/katex.min.js"></script>
+<script defer src="/katex/contrib/auto-render.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body,{
+      delimiters: [
+        {left: "$$", right: "$$", display: true},    
+        {left: "$", right: "$", display: false},     
+        {left: "\\[", right: "\\]", display: true},  
+        {left: "\\(", right: "\\)", display: false}  
+      ]
+    });
+
+  });
+</script>
 
 <link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="Categories">
 <meta property='og:description' content="Example description">
