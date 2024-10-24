@@ -13,7 +13,7 @@
         <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
         
         <guid>https://allergy527.github.io/p/problem_list/</guid>
-        <description>&lt;img src="https://allergy527.github.io/p/problem_list/%E9%A2%98%E5%8D%95.png" alt="Featured image of post luogu题单" /&gt;&lt;h2 id=&#34;转自&#34;&gt;转自
+        <description>&lt;h2 id=&#34;转自&#34;&gt;转自
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;源地址：&lt;/strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://studyingfather.com/archives/841&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://studyingfather.com/archives/841&lt;/a&gt;
 &lt;strong&gt;源仓库地址：&lt;/strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/SFOI-Team/luogu-problem-list&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -2257,7 +2257,7 @@
         <pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate>
         
         <guid>https://allergy527.github.io/p/boyer-moore-algorithm/</guid>
-        <description>&lt;img src="https://allergy527.github.io/p/boyer-moore-algorithm/Snipaste_2024-10-10_18-54-01.png" alt="Featured image of post bm算法介绍" /&gt;&lt;h2 id=&#34;boyer-moore算法介绍&#34;&gt;Boyer-Moore算法介绍
+        <description>&lt;h2 id=&#34;boyer-moore算法介绍&#34;&gt;Boyer-Moore算法介绍
 &lt;/h2&gt;&lt;h3 id=&#34;概述&#34;&gt;概述
 &lt;/h3&gt;&lt;p&gt;Boyer-Moore算法（BM算法）是由Robert S. Boyer和J Strother Moore在1977年提出的一种字符串匹配算法。该算法在查找一个子串在主串中首次出现的位置时表现非常出色，尤其在处理较长的文本时具有高效性。它之所以高效，是因为在匹配过程中可以跳过一些无意义的字符，从而减少比较次数。&lt;/p&gt;
 &lt;p&gt;BM算法的核心思想是通过分析文本和模式串之间的关系，提前预测某些字符的匹配结果，并在可能的情况下进行大步跳跃，以尽量避免不必要的字符比较。BM算法主要通过两个启发式规则来实现跳跃：&lt;strong&gt;坏字符规则&lt;/strong&gt;和&lt;strong&gt;好后缀规则&lt;/strong&gt;。&lt;/p&gt;
