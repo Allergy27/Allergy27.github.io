@@ -398,8 +398,8 @@ G：思维&lt;/p&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;数学&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;先计算2&lt;em&gt;2的方块，每有两个都会产生7个空位，有剩余就多4个
-再看空位够不够，把1&lt;/em&gt;1个数减去空位再/15即可，不要忘记向上取整&lt;/p&gt;
+&lt;p&gt;先计算2*2的方块，每有两个都会产生7个空位，有剩余就多4个
+再看空位够不够，把1*1个数减去空位再/15即可，不要忘记向上取整&lt;/p&gt;
 &lt;!-- markdownlint-disable-next-line MD033 --&gt;
 &lt;details&gt;
 &lt;!-- markdownlint-disable-next-line MD033 --&gt;
