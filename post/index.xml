@@ -456,9 +456,9 @@ G：思维&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;f&#34;&gt;F
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;滑动窗口
-不定长的滑动窗口，每次扩展右端点，扩展到:&lt;/p&gt;
+&lt;p&gt;滑动窗口&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;p&gt;不定长的滑动窗口，每次扩展右端点，扩展到:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;右端点不等于上一个数+1&lt;/li&gt;
 &lt;li&gt;右端点减左端点大于k&lt;/li&gt;
