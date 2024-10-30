@@ -1,18 +1,36 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="演示说明">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="又是coding的一天">
 <title>Posts</title>
 
-<link rel='canonical' href='https://allergy527.github.io/allergy.github.io/post/'>
+<link rel='canonical' href='http://localhost:1313/post/'>
 
-<link rel="stylesheet" href="/allergy.github.io/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="Posts">
-<meta property='og:description' content="演示说明">
-<meta property='og:url' content='https://allergy527.github.io/allergy.github.io/post/'>
-<meta property='og:site_name' content='演示站点'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2020-09-09T00:00:00&#43;00:00 '/>
+
+<link rel="stylesheet" href="/katex/katex.min.css">
+<script defer src="/katex/katex.min.js"></script>
+<script defer src="/katex/contrib/auto-render.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body,{
+      delimiters: [
+        {left: "$$", right: "$$", display: true},    
+        {left: "$", right: "$", display: false},     
+        {left: "\\[", right: "\\]", display: true},  
+        {left: "\\(", right: "\\)", display: false}  
+      ]
+    });
+
+  });
+</script>
+
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="Posts">
+<meta property='og:description' content="又是coding的一天">
+<meta property='og:url' content='http://localhost:1313/post/'>
+<meta property='og:site_name' content='Allergy的博客'>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2024-10-30T00:00:00&#43;00:00 '/>
 <meta name="twitter:title" content="Posts">
-<meta name="twitter:description" content="演示说明"><link rel="alternate" type="application/rss&#43;xml" href="https://allergy527.github.io/allergy.github.io/post/index.xml">
+<meta name="twitter:description" content="又是coding的一天"><link rel="alternate" type="application/rss&#43;xml" href="http://localhost:1313/post/index.xml">
     </head>
     <body class="">
     <script>
@@ -48,13 +66,13 @@
         
             
             <figure class="site-avatar">
-                <a href="/allergy.github.io/">
+                <a href="/">
                 
                     
                     
                     
                         
-                        <img src="/allergy.github.io/img/avatar_hu13739649187745961479.png" width="300"
+                        <img src="/img/avatar_hu14966589896483831772.jpg" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
@@ -67,7 +85,7 @@
         
         
         <div class="site-meta">
-            <h1 class="site-name"><a href="/allergy.github.io">演示站点</a></h1>
+            <h1 class="site-name"><a href="/">Allergy的博客</a></h1>
             <h2 class="site-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
         </div>
     </header><ol class="menu-social">
@@ -117,7 +135,7 @@
         
         
         <li >
-            <a href='/allergy.github.io/' >
+            <a href='/' >
                 
                 
                 
@@ -137,7 +155,7 @@
         
         
         <li >
-            <a href='/allergy.github.io/%E5%85%B3%E4%BA%8E/' >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
                 
                 
                 
@@ -156,7 +174,7 @@
         
         
         <li >
-            <a href='/allergy.github.io/archives/' >
+            <a href='/archives/' >
                 
                 
                 
@@ -176,7 +194,7 @@
         
         
         <li >
-            <a href='/allergy.github.io/search/' >
+            <a href='/search/' >
                 
                 
                 
@@ -195,7 +213,7 @@
         
         
         <li >
-            <a href='/allergy.github.io/links/' >
+            <a href='/links/' >
                 
                 
                 
@@ -229,11 +247,9 @@
 
                             <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
                                 
-                                    <option value="https://allergy527.github.io/allergy.github.io/en/" >English</option>
+                                    <option value="http://localhost:1313/" selected>中文</option>
                                 
-                                    <option value="https://allergy527.github.io/allergy.github.io/" selected>中文</option>
-                                
-                                    <option value="https://allergy527.github.io/allergy.github.io/ar/" >عربي</option>
+                                    <option value="http://localhost:1313/en/" >English</option>
                                 
                             </select>
                         </li>
@@ -269,7 +285,7 @@
     <aside class="sidebar right-sidebar sticky">
         
             
-                <form action="/allergy.github.io/search/" class="search-form widget" >
+                <form action="/search/" class="search-form widget" >
         <p>
             <label>搜索</label>
             <input name="keyword" required placeholder="输入关键词..." />
@@ -308,18 +324,10 @@
         
         <div class="widget-archive--list">
             <div class="archives-year">
-                    <a href="/allergy.github.io/archives/#2020">
+                    <a href="/archives/#2024">
                         
-                            <span class="year">2020</span>
-                            <span class="count">1</span>
-                        
-                    </a> 
-                </div>
-            <div class="archives-year">
-                    <a href="/allergy.github.io/archives/#2019">
-                        
-                            <span class="year">2019</span>
-                            <span class="count">4</span>
+                            <span class="year">2024</span>
+                            <span class="count">5</span>
                         
                     </a> 
                 </div>
@@ -346,24 +354,12 @@
 
     <div class="tagCloud-tags">
         
-            <a href="/allergy.github.io/categories/test/" class="font_size_3">
-                Test
+            <a href="/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/" class="font_size_3">
+                算法学习
             </a>
         
-            <a href="/allergy.github.io/categories/syntax/" class="font_size_1">
-                Syntax
-            </a>
-        
-            <a href="/allergy.github.io/categories/test-with-whitespaces/" class="font_size_1">
-                Test With Whitespaces
-            </a>
-        
-            <a href="/allergy.github.io/categories/themes/" class="font_size_1">
-                Themes
-            </a>
-        
-            <a href="/allergy.github.io/categories/%E6%B5%8B%E8%AF%95/" class="font_size_1">
-                测试
+            <a href="/categories/%E6%96%B0%E7%94%9F%E9%A2%98%E8%A7%A3/" class="font_size_2">
+                新生题解
             </a>
         
     </div>
@@ -386,34 +382,6 @@
     <h2 class="widget-title section-title">标签云</h2>
 
     <div class="tagCloud-tags">
-        
-            <a href="/allergy.github.io/tags/markdown/" class="font_size_2">
-                Markdown
-            </a>
-        
-            <a href="/allergy.github.io/tags/css/" class="font_size_1">
-                Css
-            </a>
-        
-            <a href="/allergy.github.io/tags/emoji/" class="font_size_1">
-                Emoji
-            </a>
-        
-            <a href="/allergy.github.io/tags/html/" class="font_size_1">
-                Html
-            </a>
-        
-            <a href="/allergy.github.io/tags/tag-with-whitespaces/" class="font_size_1">
-                Tag With Whitespaces
-            </a>
-        
-            <a href="/allergy.github.io/tags/text/" class="font_size_1">
-                Text
-            </a>
-        
-            <a href="/allergy.github.io/tags/themes/" class="font_size_1">
-                Themes
-            </a>
         
     </div>
 </section>
@@ -442,62 +410,46 @@
     <section class="article-list--compact">
         
             <article>
-    <a href="/allergy.github.io/p/test-chinese/">
+    <a href="/p/easy-dp-bag/">
         <div class="article-details">
-            <h2 class="article-title">Chinese Test</h2>
+            <h2 class="article-title">简单线性dp-背包问题</h2>
             <footer class="article-time">
-                <time datetime='2020-09-09T00:00:00Z'>Sep 09, 2020</time>
+                <time datetime='2024-10-30T00:00:00Z'>Oct 30, 2024</time>
             </footer>
         </div>
-            <div class="article-image">
-                <img src="/allergy.github.io/p/test-chinese/helena-hertz-wWZzXlDpMog-unsplash_hu4699868770670889127.jpg" 
-                        width="120"
-                        height="120" 
-                        alt="Chinese Test"
-                        loading="lazy">
-                
-            </div>
-        
     </a>
 </article>
         
             <article>
-    <a href="/allergy.github.io/p/markdown-syntax-guide/">
+    <a href="/p/flashmen_solve_2/">
         <div class="article-details">
-            <h2 class="article-title">Markdown Syntax Guide</h2>
+            <h2 class="article-title">2024级新生语言基础测试</h2>
             <footer class="article-time">
-                <time datetime='2019-03-11T00:00:00Z'>Mar 11, 2019</time>
+                <time datetime='2024-10-26T00:00:00Z'>Oct 26, 2024</time>
             </footer>
         </div>
-            <div class="article-image">
-                <img src="/allergy.github.io/p/markdown-syntax-guide/pawel-czerwinski-8uZPynIu-rQ-unsplash_hu6307248181568134095.jpg" 
-                        width="120"
-                        height="120" 
-                        alt="Markdown Syntax Guide"
-                        loading="lazy">
-                
-            </div>
-        
     </a>
 </article>
         
             <article>
-    <a href="/allergy.github.io/p/placeholder-text/">
+    <a href="/p/problem_list/">
         <div class="article-details">
-            <h2 class="article-title">Placeholder Text</h2>
+            <h2 class="article-title">luogu题单</h2>
             <footer class="article-time">
-                <time datetime='2019-03-09T00:00:00Z'>Mar 09, 2019</time>
+                <time datetime='2024-10-24T00:00:00Z'>Oct 24, 2024</time>
             </footer>
         </div>
-            <div class="article-image">
-                <img src="/allergy.github.io/p/placeholder-text/matt-le-SJSpo9hQf7s-unsplash_hu10664154974910995856.jpg" 
-                        width="120"
-                        height="120" 
-                        alt="Placeholder Text"
-                        loading="lazy">
-                
-            </div>
+    </a>
+</article>
         
+            <article>
+    <a href="/p/flashmen_solve_1/">
+        <div class="article-details">
+            <h2 class="article-title">2024级新生第四次考核题解</h2>
+            <footer class="article-time">
+                <time datetime='2024-10-12T00:00:00Z'>Oct 12, 2024</time>
+            </footer>
+        </div>
     </a>
 </article>
         
@@ -512,7 +464,7 @@
                 
             
             
-                    <a class='page-link' href='/allergy.github.io/post/page/2/'>2</a>
+                    <a class='page-link' href='/post/page/2/'>2</a>
                 
             
     </nav>
@@ -521,9 +473,7 @@
     <section class="copyright">
         &copy; 
         
-            2020 - 
-        
-        2024 Example Person
+        2024 Allergy
     </section>
     
     <section class="powerby">
@@ -539,7 +489,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/allergy.github.io/ts/main.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');

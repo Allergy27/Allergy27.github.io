@@ -1,51 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Categories on 演示站点</title>
-        <link>https://allergy527.github.io/allergy.github.io/categories/</link>
-        <description>Recent content in Categories on 演示站点</description>
+        <title>Categories on Allergy的博客</title>
+        <link>http://localhost:1313/categories/</link>
+        <description>Recent content in Categories on Allergy的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>Example Person</copyright>
-        <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://allergy527.github.io/allergy.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <copyright>Allergy</copyright>
+        <lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>算法学习</title>
+        <link>http://localhost:1313/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/</link>
+        <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>新生题解</title>
+        <link>http://localhost:1313/categories/%E6%96%B0%E7%94%9F%E9%A2%98%E8%A7%A3/</link>
+        <pubDate>Sat, 26 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/categories/%E6%96%B0%E7%94%9F%E9%A2%98%E8%A7%A3/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Test</title>
-        <link>https://allergy527.github.io/allergy.github.io/categories/test/</link>
-        <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:1313/categories/test/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://allergy527.github.io/allergy.github.io/categories/test/</guid>
-        <description>&lt;img src="https://allergy527.github.io/allergy.github.io/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Test" /&gt;</description>
-        </item>
-        <item>
-        <title>测试</title>
-        <link>https://allergy527.github.io/allergy.github.io/categories/%E6%B5%8B%E8%AF%95/</link>
-        <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
-        
-        <guid>https://allergy527.github.io/allergy.github.io/categories/%E6%B5%8B%E8%AF%95/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Syntax</title>
-        <link>https://allergy527.github.io/allergy.github.io/categories/syntax/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://allergy527.github.io/allergy.github.io/categories/syntax/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Themes</title>
-        <link>https://allergy527.github.io/allergy.github.io/categories/themes/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://allergy527.github.io/allergy.github.io/categories/themes/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Test With Whitespaces</title>
-        <link>https://allergy527.github.io/allergy.github.io/categories/test-with-whitespaces/</link>
-        <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://allergy527.github.io/allergy.github.io/categories/test-with-whitespaces/</guid>
-        <description></description>
+        <guid>http://localhost:1313/categories/test/</guid>
+        <description>&lt;img src="http://localhost:1313/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Test" /&gt;</description>
         </item>
         
     </channel>
