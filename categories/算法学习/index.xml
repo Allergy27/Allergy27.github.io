@@ -44,9 +44,9 @@
 &lt;/li&gt;
 &lt;li&gt;写出这个状态转移方程之后其实就可以直接写代码了，但是初次接触这个概念可能显得比较抽象，我们用一些图片来辅助理解:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;!-- markdownlint-disable-next-line MD033 --&gt;
 &lt;div style=&#34;position: relative; width: 100%; padding-bottom: 56.25%;&#34;&gt;
+&lt;!-- markdownlint-disable-next-line MD033 --&gt;
   &lt;iframe src=&#34;https://allergy527.github.io/a.html&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;p&gt;我自拟了一个简单的01背包问题，那么我们直接模拟一下上面那个策略的执行过程：
@@ -72,7 +72,7 @@
 &lt;li&gt;其实没必要单领出来，但是这时是有&lt;strong&gt;一点点不一样&lt;/strong&gt;的，我们能发现这时左边的不是3而是0了，所以我们比较的是0+4和3的大小关系，显然4更大些，接着类推直到包已经满了:&lt;a class=&#34;link&#34; href=&#34;6.bmp&#34; &gt;图6&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;这时我们就接着判断下一个物品了，那么中间过程交给大火&lt;strong&gt;自己写&lt;/strong&gt;了，我这里贴出&lt;strong&gt;最终的状态&lt;/strong&gt;以供验证:&lt;a class=&#34;link&#34; href=&#34;7.bmp&#34; &gt;图7&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;ul&gt;
+&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;代码部分：&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;老规矩昂，只有主体部分&lt;/em&gt;&lt;/p&gt;

@@ -427,9 +427,9 @@
 </li>
 <li>写出这个状态转移方程之后其实就可以直接写代码了，但是初次接触这个概念可能显得比较抽象，我们用一些图片来辅助理解:</li>
 </ul>
-</li>
-</ul>
+<!-- markdownlint-disable-next-line MD033 -->
 <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
+<!-- markdownlint-disable-next-line MD033 -->
   <iframe src="/a.html" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"></iframe>
 </div>
 <p>我自拟了一个简单的01背包问题，那么我们直接模拟一下上面那个策略的执行过程：
@@ -455,7 +455,7 @@
 <li>其实没必要单领出来，但是这时是有<strong>一点点不一样</strong>的，我们能发现这时左边的不是3而是0了，所以我们比较的是0+4和3的大小关系，显然4更大些，接着类推直到包已经满了:<a class="link" href="6.bmp" >图6</a></li>
 <li>这时我们就接着判断下一个物品了，那么中间过程交给大火<strong>自己写</strong>了，我这里贴出<strong>最终的状态</strong>以供验证:<a class="link" href="7.bmp" >图7</a></li>
 </ol>
-<ul>
+</li>
 <li>
 <p><strong>代码部分：</strong></p>
 <p><em>老规矩昂，只有主体部分</em></p>
