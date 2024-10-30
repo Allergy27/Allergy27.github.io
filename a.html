@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>幻灯片</title>
+    <link rel="stylesheet" href="https://unpkg.com/reveal.js/dist/reveal.css">
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <!-- 动态生成的幻灯片会被插入到这里 -->
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/reveal.js/dist/reveal.js"></script>
+    <script src="https://unpkg.com/reveal.js/plugin/markdown/markdown.js"></script>
+    <script>
+        // 图片链接数组
+        const images = [
+            "/p/easy-dp-bag/1.bmp",
+            "/p/easy-dp-bag/2.bmp",
+            "/p/easy-dp-bag/3.bmp",
+            "/p/easy-dp-bag/4.bmp",
+            "/p/easy-dp-bag/5.bmp",
+            "/p/easy-dp-bag/6.bmp",
+            "/p/easy-dp-bag/7.bmp",
+            // 添加更多图片链接
+        ];
+
+        // 获取 slides 容器
+        const slidesContainer = document.querySelector('.slides');
+
+        // 为每个图片创建一个 <section> 并添加到 slidesContainer
+        images.forEach(src => {
+            const section = document.createElement('section');
+            const img = document.createElement('img');
+            img.src = src;
+            img.alt = '幻灯片图片';
+            img.style.width = '100%';
+            img.style.height = '100%';
+            section.appendChild(img);
+            slidesContainer.appendChild(section);
+        });
+
+        // 初始化 Reveal.js 幻灯片
+        Reveal.initialize({
+            plugins: [ RevealMarkdown ],
+            hash: true,
+            slideNumber: true,
+            controls: true,
+            progress: true,
+            history: true,
+        });
+    </script>
+</body>
+</html>

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+    <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="例题来自luogu">
 <title>简单线性dp-背包问题</title>
 
-<link rel='canonical' href='http://localhost:1313/p/easy-dp-bag/'>
+<link rel='canonical' href='https://allergy527.github.io/p/easy-dp-bag/'>
 
 
 <link rel="stylesheet" href="/katex/katex.min.css">
@@ -26,7 +26,7 @@
 
 <link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="简单线性dp-背包问题">
 <meta property='og:description' content="例题来自luogu">
-<meta property='og:url' content='http://localhost:1313/p/easy-dp-bag/'>
+<meta property='og:url' content='https://allergy527.github.io/p/easy-dp-bag/'>
 <meta property='og:site_name' content='Allergy的博客'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-10-30T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-10-30T00:00:00&#43;00:00'/>
 <meta name="twitter:title" content="简单线性dp-背包问题">
@@ -94,7 +94,7 @@
             
                 <li>
                     <a 
-                        href='https://github.com/CaiJimmy/hugo-theme-stack'
+                        href='https://github.com/Allergy527/Allergy-to-not-study'
                         target="_blank"
                         title="GitHub"
                         rel="me"
@@ -249,9 +249,9 @@
 
                             <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
                                 
-                                    <option value="http://localhost:1313/" selected>中文</option>
+                                    <option value="https://allergy527.github.io/" selected>中文</option>
                                 
-                                    <option value="http://localhost:1313/en/" >English</option>
+                                    <option value="https://allergy527.github.io/en/" >English</option>
                                 
                             </select>
                         </li>
@@ -426,85 +426,36 @@
 </ul>
 </li>
 <li>写出这个状态转移方程之后其实就可以直接写代码了，但是初次接触这个概念可能显得比较抽象，我们用一些图片来辅助理解:</li>
-<li><img src="https://gitee.com/deer-b/picture/raw/master/img/20231126155510.png"
-	
-	
-	
-	loading="lazy"
-	
-		alt="西瓜"
-	
-	
->
-我自拟了一个简单的01背包问题，那么我们直接模拟一下上面那个策略的执行过程：</li>
-<li>首先我们遇到了重量为2，价值为3的西瓜，没什么好说的这遍循环直接将其加入:
-<img src="https://gitee.com/deer-b/picture/raw/master/img/20231126155858.png"
-	
-	
-	
-	loading="lazy"
-	
-		alt="图1"
-	
-	
-></li>
-<li>接着我们遇到了3 4的西瓜，我们开始判断了：
-<img src="https://gitee.com/deer-b/picture/raw/master/img/20231126160235.png"
-	
-	
-	
-	loading="lazy"
-	
-		alt="图2"
-	
-	
-></li>
-<li>因为容量是7，所以7-3 <del>（这个西瓜）</del>=4是4的位置，我们判断容量为4的最大值也就是3加上这个新东西4是否比原先容量为7时的值大。而7很显然大于3，我们替换：
-<img src="https://gitee.com/deer-b/picture/raw/master/img/20231126160546.png"
-	
-	
-	
-	loading="lazy"
-	
-		alt="图3"
-	
-	
-></li>
-<li>接着依次类推直到下面这种情况:
-<img src="https://gitee.com/deer-b/picture/raw/master/img/20231126160644.png"
-	
-	
-	
-	loading="lazy"
-	
-		alt="图4"
-	
-	
-></li>
-<li>其实没必要单领出来，但是这时是有<strong>一点点不一样</strong>的，我们能发现这时左边的不是3而是0了，所以我们比较的是0+4和3的大小关系，显然4更大些，接着类推直到包已经满了:
-<img src="https://gitee.com/deer-b/picture/raw/master/img/20231126160857.png"
-	
-	
-	
-	loading="lazy"
-	
-		alt="图5"
-	
-	
-></li>
-<li>这时我们就接着判断下一个物品了，那么中间过程交给大火<strong>自己写</strong>了，我这里贴出<strong>最终的状态</strong>以供验证:
-<img src="https://gitee.com/deer-b/picture/raw/master/img/20231126161156.png"
-	
-	
-	
-	loading="lazy"
-	
-		alt="图6"
-	
-	
-></li>
 </ul>
 </li>
+</ul>
+<div style="position: relative; width: 100%; padding-bottom: 56.25%;">
+  <iframe src="/a.html" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"></iframe>
+</div>
+<p>我自拟了一个简单的01背包问题，那么我们直接模拟一下上面那个策略的执行过程：
+<img src="/p/easy-dp-bag/1.bmp"
+	width="1607"
+	height="662"
+	srcset="/p/easy-dp-bag/1_hu10435512955190444242.bmp 480w, /p/easy-dp-bag/1_hu4550332475952793847.bmp 1024w"
+	loading="lazy"
+	
+		alt="图7"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="242"
+		data-flex-basis="582px"
+	
+></p>
+<ol>
+<li>首先我们遇到了重量为2，价值为3的西瓜，没什么好说的这遍循环直接将其加入:<a class="link" href="2.bmp" >图2</a></li>
+<li>接着我们遇到了3 4的西瓜，我们开始判断了：<a class="link" href="3.bmp" >图3</a></li>
+<li>因为容量是7，所以7-3 <del>（这个西瓜）</del>=4是4的位置，我们判断容量为4的最大值也就是3加上这个新东西4是否比原先容量为7时的值大。而7很显然大于3，我们替换：<a class="link" href="4.bmp" >图4</a></li>
+<li>接着依次类推直到下面这种情况:<a class="link" href="5.bmp" >图5</a></li>
+<li>其实没必要单领出来，但是这时是有<strong>一点点不一样</strong>的，我们能发现这时左边的不是3而是0了，所以我们比较的是0+4和3的大小关系，显然4更大些，接着类推直到包已经满了:<a class="link" href="6.bmp" >图6</a></li>
+<li>这时我们就接着判断下一个物品了，那么中间过程交给大火<strong>自己写</strong>了，我这里贴出<strong>最终的状态</strong>以供验证:<a class="link" href="7.bmp" >图7</a></li>
+</ol>
+<ul>
 <li>
 <p><strong>代码部分：</strong></p>
 <p><em>老规矩昂，只有主体部分</em></p>

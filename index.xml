@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Allergy的博客</title>
-        <link>http://localhost:1313/</link>
+        <link>https://allergy527.github.io/</link>
         <description>Recent content on Allergy的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Allergy</copyright>
-        <lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://allergy527.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>简单线性dp-背包问题</title>
-        <link>http://localhost:1313/p/easy-dp-bag/</link>
+        <link>https://allergy527.github.io/p/easy-dp-bag/</link>
         <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/easy-dp-bag/</guid>
+        <guid>https://allergy527.github.io/p/easy-dp-bag/</guid>
         <description>&lt;h2 id=&#34;背包问题&#34;&gt;背包问题
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;写于2023年，码风较为丑陋，建议优先查看官方推荐题解&lt;/p&gt;
@@ -43,85 +43,36 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;写出这个状态转移方程之后其实就可以直接写代码了，但是初次接触这个概念可能显得比较抽象，我们用一些图片来辅助理解:&lt;/li&gt;
-&lt;li&gt;&lt;img src=&#34;https://gitee.com/deer-b/picture/raw/master/img/20231126155510.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;西瓜&#34;
-	
-	
-&gt;
-我自拟了一个简单的01背包问题，那么我们直接模拟一下上面那个策略的执行过程：&lt;/li&gt;
-&lt;li&gt;首先我们遇到了重量为2，价值为3的西瓜，没什么好说的这遍循环直接将其加入:
-&lt;img src=&#34;https://gitee.com/deer-b/picture/raw/master/img/20231126155858.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;图1&#34;
-	
-	
-&gt;&lt;/li&gt;
-&lt;li&gt;接着我们遇到了3 4的西瓜，我们开始判断了：
-&lt;img src=&#34;https://gitee.com/deer-b/picture/raw/master/img/20231126160235.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;图2&#34;
-	
-	
-&gt;&lt;/li&gt;
-&lt;li&gt;因为容量是7，所以7-3 &lt;del&gt;（这个西瓜）&lt;/del&gt;=4是4的位置，我们判断容量为4的最大值也就是3加上这个新东西4是否比原先容量为7时的值大。而7很显然大于3，我们替换：
-&lt;img src=&#34;https://gitee.com/deer-b/picture/raw/master/img/20231126160546.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;图3&#34;
-	
-	
-&gt;&lt;/li&gt;
-&lt;li&gt;接着依次类推直到下面这种情况:
-&lt;img src=&#34;https://gitee.com/deer-b/picture/raw/master/img/20231126160644.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;图4&#34;
-	
-	
-&gt;&lt;/li&gt;
-&lt;li&gt;其实没必要单领出来，但是这时是有&lt;strong&gt;一点点不一样&lt;/strong&gt;的，我们能发现这时左边的不是3而是0了，所以我们比较的是0+4和3的大小关系，显然4更大些，接着类推直到包已经满了:
-&lt;img src=&#34;https://gitee.com/deer-b/picture/raw/master/img/20231126160857.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;图5&#34;
-	
-	
-&gt;&lt;/li&gt;
-&lt;li&gt;这时我们就接着判断下一个物品了，那么中间过程交给大火&lt;strong&gt;自己写&lt;/strong&gt;了，我这里贴出&lt;strong&gt;最终的状态&lt;/strong&gt;以供验证:
-&lt;img src=&#34;https://gitee.com/deer-b/picture/raw/master/img/20231126161156.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;图6&#34;
-	
-	
-&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style=&#34;position: relative; width: 100%; padding-bottom: 56.25%;&#34;&gt;
+  &lt;iframe src=&#34;https://allergy527.github.io/a.html&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p&gt;我自拟了一个简单的01背包问题，那么我们直接模拟一下上面那个策略的执行过程：
+&lt;img src=&#34;https://allergy527.github.io/p/easy-dp-bag/1.bmp&#34;
+	width=&#34;1607&#34;
+	height=&#34;662&#34;
+	srcset=&#34;https://allergy527.github.io/p/easy-dp-bag/1_hu10435512955190444242.bmp 480w, https://allergy527.github.io/p/easy-dp-bag/1_hu4550332475952793847.bmp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;图7&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;242&#34;
+		data-flex-basis=&#34;582px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;首先我们遇到了重量为2，价值为3的西瓜，没什么好说的这遍循环直接将其加入:&lt;a class=&#34;link&#34; href=&#34;2.bmp&#34; &gt;图2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;接着我们遇到了3 4的西瓜，我们开始判断了：&lt;a class=&#34;link&#34; href=&#34;3.bmp&#34; &gt;图3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;因为容量是7，所以7-3 &lt;del&gt;（这个西瓜）&lt;/del&gt;=4是4的位置，我们判断容量为4的最大值也就是3加上这个新东西4是否比原先容量为7时的值大。而7很显然大于3，我们替换：&lt;a class=&#34;link&#34; href=&#34;4.bmp&#34; &gt;图4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;接着依次类推直到下面这种情况:&lt;a class=&#34;link&#34; href=&#34;5.bmp&#34; &gt;图5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;其实没必要单领出来，但是这时是有&lt;strong&gt;一点点不一样&lt;/strong&gt;的，我们能发现这时左边的不是3而是0了，所以我们比较的是0+4和3的大小关系，显然4更大些，接着类推直到包已经满了:&lt;a class=&#34;link&#34; href=&#34;6.bmp&#34; &gt;图6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;这时我们就接着判断下一个物品了，那么中间过程交给大火&lt;strong&gt;自己写&lt;/strong&gt;了，我这里贴出&lt;strong&gt;最终的状态&lt;/strong&gt;以供验证:&lt;a class=&#34;link&#34; href=&#34;7.bmp&#34; &gt;图7&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;代码部分：&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;老规矩昂，只有主体部分&lt;/em&gt;&lt;/p&gt;
@@ -326,10 +277,10 @@
         </item>
         <item>
         <title>2024级新生语言基础测试</title>
-        <link>http://localhost:1313/p/flashmen_solve_2/</link>
+        <link>https://allergy527.github.io/p/flashmen_solve_2/</link>
         <pubDate>Sat, 26 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/flashmen_solve_2/</guid>
+        <guid>https://allergy527.github.io/p/flashmen_solve_2/</guid>
         <description>&lt;h2 id=&#34;2024级新生第四次考核题解&#34;&gt;2024级新生第四次考核题解
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;考核链接：&lt;/strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://vjudge.net/contest/666653&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://vjudge.net/contest/666653&lt;/a&gt;&lt;/p&gt;
@@ -1043,20 +994,20 @@ G：思维&lt;/p&gt;
         </item>
         <item>
         <title>luogu题单</title>
-        <link>http://localhost:1313/p/problem_list/</link>
+        <link>https://allergy527.github.io/p/problem_list/</link>
         <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/problem_list/</guid>
+        <guid>https://allergy527.github.io/p/problem_list/</guid>
         <description>&lt;h2 id=&#34;转自&#34;&gt;转自
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;源地址：&lt;/strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://studyingfather.com/archives/841&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://studyingfather.com/archives/841&lt;/a&gt;
 &lt;strong&gt;源仓库地址：&lt;/strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/SFOI-Team/luogu-problem-list&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://github.com/SFOI-Team/luogu-problem-list&lt;/a&gt;
 &lt;strong&gt;star截图：&lt;/strong&gt;
-&lt;img src=&#34;http://localhost:1313/p/problem_list/star.png&#34;
+&lt;img src=&#34;https://allergy527.github.io/p/problem_list/star.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1494&#34;
-	srcset=&#34;http://localhost:1313/p/problem_list/star_hu2054117750230530251.png 480w, http://localhost:1313/p/problem_list/star_hu11730327230786488667.png 1024w&#34;
+	srcset=&#34;https://allergy527.github.io/p/problem_list/star_hu2054117750230530251.png 480w, https://allergy527.github.io/p/problem_list/star_hu11730327230786488667.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;star截图&#34;
@@ -3287,10 +3238,10 @@ G：思维&lt;/p&gt;
         </item>
         <item>
         <title>2024级新生第四次考核题解</title>
-        <link>http://localhost:1313/p/flashmen_solve_1/</link>
+        <link>https://allergy527.github.io/p/flashmen_solve_1/</link>
         <pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/flashmen_solve_1/</guid>
+        <guid>https://allergy527.github.io/p/flashmen_solve_1/</guid>
         <description>&lt;h2 id=&#34;2024级新生第四次考核题解&#34;&gt;2024级新生第四次考核题解
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;考核链接：&lt;/strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://vjudge.net/contest/663008&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://vjudge.net/contest/663008&lt;/a&gt;&lt;/p&gt;
@@ -4002,10 +3953,10 @@ E：BFS&lt;/p&gt;
         </item>
         <item>
         <title>bm算法介绍</title>
-        <link>http://localhost:1313/p/boyer-moore-algorithm/</link>
+        <link>https://allergy527.github.io/p/boyer-moore-algorithm/</link>
         <pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/boyer-moore-algorithm/</guid>
+        <guid>https://allergy527.github.io/p/boyer-moore-algorithm/</guid>
         <description>&lt;h2 id=&#34;boyer-moore算法介绍&#34;&gt;Boyer-Moore算法介绍
 &lt;/h2&gt;&lt;h3 id=&#34;概述&#34;&gt;概述
 &lt;/h3&gt;&lt;p&gt;Boyer-Moore算法（BM算法）是由Robert S. Boyer和J Strother Moore在1977年提出的一种字符串匹配算法。该算法在查找一个子串在主串中首次出现的位置时表现非常出色，尤其在处理较长的文本时具有高效性。它之所以高效，是因为在匹配过程中可以跳过一些无意义的字符，从而减少比较次数。&lt;/p&gt;
@@ -4224,18 +4175,18 @@ E：BFS&lt;/p&gt;
         </item>
         <item>
         <title>Archives</title>
-        <link>http://localhost:1313/archives/</link>
+        <link>https://allergy527.github.io/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/archives/</guid>
+        <guid>https://allergy527.github.io/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>Links</title>
-        <link>http://localhost:1313/links/</link>
+        <link>https://allergy527.github.io/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/links/</guid>
+        <guid>https://allergy527.github.io/links/</guid>
         <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -4267,18 +4218,18 @@ E：BFS&lt;/p&gt;
         </item>
         <item>
         <title>Search</title>
-        <link>http://localhost:1313/search/</link>
+        <link>https://allergy527.github.io/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/search/</guid>
+        <guid>https://allergy527.github.io/search/</guid>
         <description></description>
         </item>
         <item>
         <title>关于</title>
-        <link>http://localhost:1313/%E5%85%B3%E4%BA%8E/</link>
+        <link>https://allergy527.github.io/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/%E5%85%B3%E4%BA%8E/</guid>
+        <guid>https://allergy527.github.io/%E5%85%B3%E4%BA%8E/</guid>
         <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
 </description>
         </item>

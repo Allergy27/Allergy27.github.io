@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>新生题解 on Allergy的博客</title>
-        <link>http://localhost:1313/categories/%E6%96%B0%E7%94%9F%E9%A2%98%E8%A7%A3/</link>
+        <link>https://allergy527.github.io/categories/%E6%96%B0%E7%94%9F%E9%A2%98%E8%A7%A3/</link>
         <description>Recent content in 新生题解 on Allergy的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Allergy</copyright>
-        <lastBuildDate>Sat, 26 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/%E6%96%B0%E7%94%9F%E9%A2%98%E8%A7%A3/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 26 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://allergy527.github.io/categories/%E6%96%B0%E7%94%9F%E9%A2%98%E8%A7%A3/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>2024级新生语言基础测试</title>
-        <link>http://localhost:1313/p/flashmen_solve_2/</link>
+        <link>https://allergy527.github.io/p/flashmen_solve_2/</link>
         <pubDate>Sat, 26 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/flashmen_solve_2/</guid>
+        <guid>https://allergy527.github.io/p/flashmen_solve_2/</guid>
         <description>&lt;h2 id=&#34;2024级新生第四次考核题解&#34;&gt;2024级新生第四次考核题解
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;考核链接：&lt;/strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://vjudge.net/contest/666653&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://vjudge.net/contest/666653&lt;/a&gt;&lt;/p&gt;
@@ -726,10 +726,10 @@ G：思维&lt;/p&gt;
         </item>
         <item>
         <title>2024级新生第四次考核题解</title>
-        <link>http://localhost:1313/p/flashmen_solve_1/</link>
+        <link>https://allergy527.github.io/p/flashmen_solve_1/</link>
         <pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/flashmen_solve_1/</guid>
+        <guid>https://allergy527.github.io/p/flashmen_solve_1/</guid>
         <description>&lt;h2 id=&#34;2024级新生第四次考核题解&#34;&gt;2024级新生第四次考核题解
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;考核链接：&lt;/strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://vjudge.net/contest/663008&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://vjudge.net/contest/663008&lt;/a&gt;&lt;/p&gt;
