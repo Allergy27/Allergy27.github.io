@@ -451,9 +451,26 @@
 	
 ></li>
 </ul>
-<p>再找到左右区间，区间内每个点检验是否是某个素数的倍数</p>
+<p>再找到左右区间，区间内每个点检验是否是筛出的小区间的素数的倍数
+左端点向上取整，右端点向下取整，避免超出索引</p>
 <h4 id="莫比乌斯函数">莫比乌斯函数
-</h4><p><strong>Problem:</strong></p>
+</h4><blockquote>
+<p>核心思想：包含-排除思想，在容斥原理中有深刻应用</p>
+<p>算法核心:</p>
+<ul>
+<li>
+<p>$\mu(1) = 1$</p>
+</li>
+<li>
+<p>$\mu(n) = (-1)^k$ n为k个质数的乘积</p>
+</li>
+<li>
+<p>$\mu(n) = 0$ n含平方因子</p>
+</li>
+</ul>
+<p>另外，稍微改改就变成欧拉函数了</p>
+</blockquote>
+<p><strong>Problem:</strong></p>
 <blockquote>
 <p>截图</p>
 </blockquote>
@@ -551,51 +568,51 @@
             
                 
 <article class="">
+    <a href="/p/cf_988_div3/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">CodeForces_988_div3</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/cf_988_div3/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">CodeForces_988_div3</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/cf_988_div3/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">CodeForces_988_div3</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
     <a href="/p/cf_987_div2/">
         
         
 
         <div class="article-details">
             <h2 class="article-title">CodeForces_987_div2</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/p/cf_986_div2/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">CodeForces_986_div2</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/p/cf_985_glb/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">CodeForces_985_refact.ai_match</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/p/vp_cf_984_div3/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">CodeForces_984_div3</h2>
         </div>
     </a>
 </article>
@@ -656,7 +673,9 @@
     <section class="copyright">
         &copy; 
         
-        2024 Allergy
+            2024 - 
+        
+        2025 Allergy
     </section>
     
     <section class="powerby">
