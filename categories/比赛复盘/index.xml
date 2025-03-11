@@ -22,8 +22,7 @@ A：签到-哈希表
 B：签到-哈希集合
 C：思维-构造
 D：优先队列
-E：交互-观察&lt;/p&gt;
-&lt;/blockquote&gt;
+E：交互-观察&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;说明&#34;&gt;说明
 &lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;写给自己看的，全文Rust代码，善用GPT翻译&lt;/li&gt;
@@ -157,8 +156,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;a&#34;&gt;A
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;数组模拟哈希表即可&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;数组模拟哈希表即可&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;数组模拟哈希表，每个值$/2$后加入答案&lt;/li&gt;
@@ -196,8 +194,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;b&#34;&gt;B
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;哈希集合&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;哈希集合&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;类似Leetcode两数之和问题，一次遍历&lt;/li&gt;
@@ -241,8 +238,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;c&#34;&gt;C
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;构造&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;构造&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;偶数一定合数，构造偶数即可&lt;/li&gt;
@@ -301,8 +297,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;d&#34;&gt;D
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;事件合并后放入优先队列&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;事件合并后放入优先队列&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;先合并事件，按坐标从小到大排序&lt;/li&gt;
@@ -407,8 +402,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;e&#34;&gt;E
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;交互题&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;交互题&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;反思:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;依然是漏判情况导致出锅&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
@@ -512,8 +506,7 @@ A：签到-哈希表
 B：签到-哈希集合
 C：思维-构造
 D：优先队列
-E：交互-观察&lt;/p&gt;
-&lt;/blockquote&gt;
+E：交互-观察&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;说明&#34;&gt;说明
 &lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;写给自己看的，全文Rust代码，善用GPT翻译&lt;/li&gt;
@@ -647,8 +640,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;a&#34;&gt;A
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;数组模拟哈希表即可&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;数组模拟哈希表即可&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;数组模拟哈希表，每个值$/2$后加入答案&lt;/li&gt;
@@ -686,8 +678,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;b&#34;&gt;B
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;哈希集合&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;哈希集合&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;类似Leetcode两数之和问题，一次遍历&lt;/li&gt;
@@ -731,8 +722,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;c&#34;&gt;C
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;构造&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;构造&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;偶数一定合数，构造偶数即可&lt;/li&gt;
@@ -791,8 +781,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;d&#34;&gt;D
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;事件合并后放入优先队列&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;事件合并后放入优先队列&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;先合并事件，按坐标从小到大排序&lt;/li&gt;
@@ -897,8 +886,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;e&#34;&gt;E
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;交互题&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;交互题&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;反思:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;依然是漏判情况导致出锅&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
@@ -1002,8 +990,7 @@ A：签到-哈希表
 B：签到-哈希集合
 C：思维-构造
 D：优先队列
-E：交互-观察&lt;/p&gt;
-&lt;/blockquote&gt;
+E：交互-观察&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;说明&#34;&gt;说明
 &lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;写给自己看的，全文Rust代码，善用GPT翻译&lt;/li&gt;
@@ -1137,8 +1124,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;a&#34;&gt;A
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;数组模拟哈希表即可&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;数组模拟哈希表即可&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;数组模拟哈希表，每个值$/2$后加入答案&lt;/li&gt;
@@ -1176,8 +1162,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;b&#34;&gt;B
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;哈希集合&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;哈希集合&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;类似Leetcode两数之和问题，一次遍历&lt;/li&gt;
@@ -1221,8 +1206,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;c&#34;&gt;C
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;构造&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;构造&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;偶数一定合数，构造偶数即可&lt;/li&gt;
@@ -1281,8 +1265,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;d&#34;&gt;D
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;事件合并后放入优先队列&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;事件合并后放入优先队列&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;先合并事件，按坐标从小到大排序&lt;/li&gt;
@@ -1387,8 +1370,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;e&#34;&gt;E
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;交互题&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;交互题&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;反思:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;依然是漏判情况导致出锅&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
@@ -1492,8 +1474,7 @@ A：签到-哈希表
 B：签到-哈希集合
 C：思维-构造
 D：优先队列
-E：交互-观察&lt;/p&gt;
-&lt;/blockquote&gt;
+E：交互-观察&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;说明&#34;&gt;说明
 &lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;写给自己看的，全文Rust代码，善用GPT翻译&lt;/li&gt;
@@ -1627,8 +1608,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;a&#34;&gt;A
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;数组模拟哈希表即可&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;数组模拟哈希表即可&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;数组模拟哈希表，每个值$/2$后加入答案&lt;/li&gt;
@@ -1666,8 +1646,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;b&#34;&gt;B
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;哈希集合&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;哈希集合&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;类似Leetcode两数之和问题，一次遍历&lt;/li&gt;
@@ -1711,8 +1690,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;c&#34;&gt;C
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;构造&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;构造&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;偶数一定合数，构造偶数即可&lt;/li&gt;
@@ -1771,8 +1749,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;d&#34;&gt;D
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;事件合并后放入优先队列&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;事件合并后放入优先队列&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;先合并事件，按坐标从小到大排序&lt;/li&gt;
@@ -1877,8 +1854,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;e&#34;&gt;E
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;交互题&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;交互题&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;反思:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;依然是漏判情况导致出锅&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
@@ -1981,8 +1957,7 @@ E：交互-观察&lt;/p&gt;
 A：签到-LIS
 B：签到-思维
 C：思维-构造
-D：前后缀分解&lt;/p&gt;
-&lt;/blockquote&gt;
+D：前后缀分解&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;说明&#34;&gt;说明
 &lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;写给自己看的，全文Rust代码，善用GPT翻译&lt;/li&gt;
@@ -2113,11 +2088,10 @@ D：前后缀分解&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
-&lt;h3 id=&#34;ahttpscodeforcescomcontest2031problema&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2031/problem/A&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h3 id=&#34;a&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2031/problem/A&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;A&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;签到题-LIS&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;签到题-LIS&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;反思:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;赛时看出是单调栈，没看出最长递增子序列难绷&lt;/li&gt;
@@ -2171,11 +2145,10 @@ D：前后缀分解&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
-&lt;h3 id=&#34;bhttpscodeforcescomcontest2031problemb&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2031/problem/B&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h3 id=&#34;b&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2031/problem/B&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;B&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;签到-思维&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;签到-思维&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;索引和值相差超过1肯定就不行&lt;/li&gt;
@@ -2215,11 +2188,10 @@ D：前后缀分解&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
-&lt;h3 id=&#34;chttpscodeforcescomcontest2031problemc&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2031/problem/C&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h3 id=&#34;c&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2031/problem/C&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;C&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;思维-构造&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;思维-构造&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;偶数只要一直&lt;code&gt;1 1 2 2 ..&lt;/code&gt;即可&lt;/li&gt;
@@ -2275,11 +2247,10 @@ D：前后缀分解&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
-&lt;h3 id=&#34;dhttpscodeforcescomcontest2031problemd&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2031/problem/D&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h3 id=&#34;d&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2031/problem/D&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;D&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;前后缀分解+前缀和&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;前后缀分解+前缀和&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;从前往后维护向前跳最高为多少&lt;/li&gt;
@@ -2363,8 +2334,7 @@ D：前后缀分解&lt;/p&gt;
 &lt;p&gt;题目类型
 A：签到-模拟
 B：模拟、数学
-C：前后缀分解、前缀和&lt;/p&gt;
-&lt;/blockquote&gt;
+C：前后缀分解、前缀和&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;说明&#34;&gt;说明
 &lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;写给自己看的，全文Rust代码，善用GPT翻译&lt;/li&gt;
@@ -2495,11 +2465,10 @@ C：前后缀分解、前缀和&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
-&lt;h3 id=&#34;ahttpscodeforcescomcontest2028problema&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2028/problem/A&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h3 id=&#34;a&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2028/problem/A&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;A&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;签到题-模拟&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;签到题-模拟&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;题目数据量小，考虑模拟，假设重复足够次数，然后看看会不会碰上即可&lt;/li&gt;
@@ -2577,11 +2546,10 @@ C：前后缀分解、前缀和&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
-&lt;h3 id=&#34;bhttpscodeforcescomcontest2028problemb&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2028/problem/B&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h3 id=&#34;b&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2028/problem/B&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;B&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;模拟+数学&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;模拟+数学&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;反思:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;赛时完全没想到怎么举特例，疯魔了&lt;/li&gt;
@@ -2642,11 +2610,10 @@ C：前后缀分解、前缀和&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
-&lt;h3 id=&#34;chttpscodeforcescomcontest2028problemc&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2028/problem/C&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h3 id=&#34;c&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2028/problem/C&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;C&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;前后缀分解+前缀和&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;前后缀分解+前缀和&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;因为切成&lt;code&gt;m+1&lt;/code&gt;份是固定的，所以枚举从前往后切i个的右端点，以及从右往左切i个的左端点，左右端点之间的值就是能拿到的蛋糕值&lt;/li&gt;
@@ -2750,8 +2717,7 @@ A：签到-二分
 B：博弈论
 C：动态规划
 D：构造
-E：构造&lt;/p&gt;
-&lt;/blockquote&gt;
+E：构造&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;说明&#34;&gt;说明
 &lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;写给自己看的，全文Rust代码，善用GPT翻译&lt;/li&gt;
@@ -2882,11 +2848,10 @@ E：构造&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
-&lt;h3 id=&#34;ahttpscodeforcescomcontest2029problema&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2029/problem/A&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h3 id=&#34;a&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2029/problem/A&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;A&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;签到题-二分/数学&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;签到题-二分/数学&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;code&gt;二分查找/数学&lt;/code&gt; 找第一个满足&lt;code&gt;k倍&amp;gt;r&lt;/code&gt;的数是什么数即可，向下取整&lt;/li&gt;
@@ -2959,11 +2924,10 @@ E：构造&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
-&lt;h3 id=&#34;bhttpscodeforcescomcontest2029problemb&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2029/problem/B&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h3 id=&#34;b&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2029/problem/B&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;B&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;博弈论&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;博弈论&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;反思:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;赛时代码太丑陋了&lt;/li&gt;
@@ -3103,11 +3067,10 @@ E：构造&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
-&lt;h3 id=&#34;chttpscodeforcescomcontest2029problemc&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2029/problem/C&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h3 id=&#34;c&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2029/problem/C&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;C&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;dp&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;dp&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;有最优子结构特征(某个区间跳过与不跳过)可以dp&lt;/li&gt;
@@ -3149,11 +3112,10 @@ E：构造&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
-&lt;h3 id=&#34;dhttpscodeforcescomcontest2029problemd&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2029/problem/D&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h3 id=&#34;d&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2029/problem/D&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;D&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;构造&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;构造&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;有多条边的直接删,每次操作都会使入度减一，所以最多m次可分为单独的点和边&lt;/li&gt;
@@ -3280,11 +3242,10 @@ E：构造&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
-&lt;h3 id=&#34;ehttpscodeforcescomcontest2029probleme&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2029/problem/E&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h3 id=&#34;e&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2029/problem/E&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;E&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;构造&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;构造&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;反思:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;没能注意到多个素数时一定没有答案&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
@@ -3439,8 +3400,7 @@ B：签到-哈希表
 C：签到—字符串
 D：签到-字符串
 E: 二分练习题
-F: 数学-XOR&lt;/p&gt;
-&lt;/blockquote&gt;
+F: 数学-XOR&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;说明&#34;&gt;说明
 &lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;写给自己看的，全文Rust代码，善用GPT翻译&lt;/li&gt;
@@ -3574,8 +3534,7 @@ F: 数学-XOR&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;a&#34;&gt;A
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;签到题&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;签到题&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;遍历途中看差是不是&lt;code&gt;5&lt;/code&gt;或&lt;code&gt;7&lt;/code&gt;即可&lt;/li&gt;
@@ -3617,8 +3576,7 @@ F: 数学-XOR&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;b&#34;&gt;B
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;签到题&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;签到题&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;哈希表存每个品牌的总和，排序||存最大堆后取出前n大的和即可&lt;/li&gt;
@@ -3682,8 +3640,7 @@ F: 数学-XOR&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;c&#34;&gt;C
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;预处理后即可O(1)处理查询&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;预处理后即可O(1)处理查询&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;预处理一遍一开始有多少&lt;code&gt;1100&lt;/code&gt;&lt;/li&gt;
@@ -3761,8 +3718,7 @@ F: 数学-XOR&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;d&#34;&gt;D
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;输入练习&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;输入练习&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;对循环读入数据的练习&lt;/li&gt;
@@ -3887,8 +3843,7 @@ F: 数学-XOR&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;e&#34;&gt;E
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;二分练习题&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;二分练习题&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;反思:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;题目条件没注意到，每个地区是不递减的，一开始没看到也就没做出来&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
@@ -3967,8 +3922,7 @@ F: 数学-XOR&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;f&#34;&gt;F
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;数学&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;数学&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;异或和有结论
@@ -4063,8 +4017,7 @@ F: 数学-XOR&lt;/p&gt;
 A：签到-思维题
 B：签到-思维题
 C：前缀和+二分
-D：模拟交互题&lt;/p&gt;
-&lt;/blockquote&gt;
+D：模拟交互题&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;说明&#34;&gt;说明
 &lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;写给自己看的，全文Rust代码，善用GPT翻译
@@ -4202,8 +4155,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;a&#34;&gt;A
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;签到题&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;签到题&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;00和11对应关灯，01和10对应开灯&lt;/li&gt;
@@ -4248,8 +4200,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;b&#34;&gt;B
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;求出前缀和数组后，数学运算即得&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;求出前缀和数组后，数学运算即得&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;反思:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;题意没理解正确多花了大量无意义的时间在上面&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
@@ -4315,8 +4266,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;c&#34;&gt;C
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;预处理出前缀和再二分判断即可&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;预处理出前缀和再二分判断即可&lt;/p&gt;&lt;/blockquote&gt;
 &lt;!-- markdownlint-disable-next-line MD033 --&gt;
 &lt;details&gt;
 &lt;!-- markdownlint-disable-next-line MD033 --&gt;
@@ -4591,8 +4541,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;d&#34;&gt;D
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;交互思维题&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;交互思维题&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;理解完题意我们知道只有根节点有多个孩子，其他节点只有一个孩子&lt;/li&gt;

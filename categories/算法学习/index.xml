@@ -22,8 +22,7 @@ A：签到-哈希表
 B：签到-哈希集合
 C：思维-构造
 D：优先队列
-E：交互-观察&lt;/p&gt;
-&lt;/blockquote&gt;
+E：交互-观察&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;说明&#34;&gt;说明
 &lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;写给自己看的，全文Rust代码，善用GPT翻译&lt;/li&gt;
@@ -157,8 +156,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;a&#34;&gt;A
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;数组模拟哈希表即可&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;数组模拟哈希表即可&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;数组模拟哈希表，每个值$/2$后加入答案&lt;/li&gt;
@@ -196,8 +194,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;b&#34;&gt;B
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;哈希集合&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;哈希集合&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;类似Leetcode两数之和问题，一次遍历&lt;/li&gt;
@@ -241,8 +238,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;c&#34;&gt;C
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;构造&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;构造&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;偶数一定合数，构造偶数即可&lt;/li&gt;
@@ -301,8 +297,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;d&#34;&gt;D
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;事件合并后放入优先队列&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;事件合并后放入优先队列&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;先合并事件，按坐标从小到大排序&lt;/li&gt;
@@ -407,8 +402,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;e&#34;&gt;E
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;交互题&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;交互题&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;反思:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;依然是漏判情况导致出锅&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
@@ -512,8 +506,7 @@ A：签到-哈希表
 B：签到-哈希集合
 C：思维-构造
 D：优先队列
-E：交互-观察&lt;/p&gt;
-&lt;/blockquote&gt;
+E：交互-观察&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;说明&#34;&gt;说明
 &lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;写给自己看的，全文Rust代码，善用GPT翻译&lt;/li&gt;
@@ -647,8 +640,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;a&#34;&gt;A
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;数组模拟哈希表即可&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;数组模拟哈希表即可&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;数组模拟哈希表，每个值$/2$后加入答案&lt;/li&gt;
@@ -686,8 +678,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;b&#34;&gt;B
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;哈希集合&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;哈希集合&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;类似Leetcode两数之和问题，一次遍历&lt;/li&gt;
@@ -731,8 +722,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;c&#34;&gt;C
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;构造&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;构造&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;偶数一定合数，构造偶数即可&lt;/li&gt;
@@ -791,8 +781,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;d&#34;&gt;D
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;事件合并后放入优先队列&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;事件合并后放入优先队列&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;先合并事件，按坐标从小到大排序&lt;/li&gt;
@@ -897,8 +886,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;e&#34;&gt;E
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;交互题&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;交互题&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;反思:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;依然是漏判情况导致出锅&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
@@ -1002,8 +990,7 @@ A：签到-哈希表
 B：签到-哈希集合
 C：思维-构造
 D：优先队列
-E：交互-观察&lt;/p&gt;
-&lt;/blockquote&gt;
+E：交互-观察&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;说明&#34;&gt;说明
 &lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;写给自己看的，全文Rust代码，善用GPT翻译&lt;/li&gt;
@@ -1137,8 +1124,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;a&#34;&gt;A
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;数组模拟哈希表即可&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;数组模拟哈希表即可&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;数组模拟哈希表，每个值$/2$后加入答案&lt;/li&gt;
@@ -1176,8 +1162,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;b&#34;&gt;B
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;哈希集合&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;哈希集合&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;类似Leetcode两数之和问题，一次遍历&lt;/li&gt;
@@ -1221,8 +1206,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;c&#34;&gt;C
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;构造&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;构造&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;偶数一定合数，构造偶数即可&lt;/li&gt;
@@ -1281,8 +1265,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;d&#34;&gt;D
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;事件合并后放入优先队列&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;事件合并后放入优先队列&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;先合并事件，按坐标从小到大排序&lt;/li&gt;
@@ -1387,8 +1370,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;e&#34;&gt;E
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;交互题&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;交互题&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;反思:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;依然是漏判情况导致出锅&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
@@ -1492,8 +1474,7 @@ A：签到-哈希表
 B：签到-哈希集合
 C：思维-构造
 D：优先队列
-E：交互-观察&lt;/p&gt;
-&lt;/blockquote&gt;
+E：交互-观察&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;说明&#34;&gt;说明
 &lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;写给自己看的，全文Rust代码，善用GPT翻译&lt;/li&gt;
@@ -1627,8 +1608,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;a&#34;&gt;A
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;数组模拟哈希表即可&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;数组模拟哈希表即可&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;数组模拟哈希表，每个值$/2$后加入答案&lt;/li&gt;
@@ -1666,8 +1646,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;b&#34;&gt;B
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;哈希集合&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;哈希集合&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;类似Leetcode两数之和问题，一次遍历&lt;/li&gt;
@@ -1711,8 +1690,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;c&#34;&gt;C
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;构造&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;构造&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;偶数一定合数，构造偶数即可&lt;/li&gt;
@@ -1771,8 +1749,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;d&#34;&gt;D
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;事件合并后放入优先队列&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;事件合并后放入优先队列&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;先合并事件，按坐标从小到大排序&lt;/li&gt;
@@ -1877,8 +1854,7 @@ E：交互-观察&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;e&#34;&gt;E
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;交互题&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;交互题&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;反思:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;依然是漏判情况导致出锅&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
@@ -1981,8 +1957,7 @@ E：交互-观察&lt;/p&gt;
 A：签到-LIS
 B：签到-思维
 C：思维-构造
-D：前后缀分解&lt;/p&gt;
-&lt;/blockquote&gt;
+D：前后缀分解&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;说明&#34;&gt;说明
 &lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;写给自己看的，全文Rust代码，善用GPT翻译&lt;/li&gt;
@@ -2113,11 +2088,10 @@ D：前后缀分解&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
-&lt;h3 id=&#34;ahttpscodeforcescomcontest2031problema&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2031/problem/A&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h3 id=&#34;a&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2031/problem/A&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;A&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;签到题-LIS&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;签到题-LIS&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;反思:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;赛时看出是单调栈，没看出最长递增子序列难绷&lt;/li&gt;
@@ -2171,11 +2145,10 @@ D：前后缀分解&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
-&lt;h3 id=&#34;bhttpscodeforcescomcontest2031problemb&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2031/problem/B&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h3 id=&#34;b&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2031/problem/B&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;B&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;签到-思维&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;签到-思维&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;索引和值相差超过1肯定就不行&lt;/li&gt;
@@ -2215,11 +2188,10 @@ D：前后缀分解&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
-&lt;h3 id=&#34;chttpscodeforcescomcontest2031problemc&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2031/problem/C&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h3 id=&#34;c&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2031/problem/C&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;C&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;思维-构造&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;思维-构造&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;偶数只要一直&lt;code&gt;1 1 2 2 ..&lt;/code&gt;即可&lt;/li&gt;
@@ -2275,11 +2247,10 @@ D：前后缀分解&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
-&lt;h3 id=&#34;dhttpscodeforcescomcontest2031problemd&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2031/problem/D&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h3 id=&#34;d&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2031/problem/D&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;D&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;前后缀分解+前缀和&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;前后缀分解+前缀和&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;从前往后维护向前跳最高为多少&lt;/li&gt;
@@ -2358,19 +2329,17 @@ D：前后缀分解&lt;/p&gt;
         <guid>https://allergy27.github.io/p/camp_learning/</guid>
         <description>&lt;h2 id=&#34;day-1-number-theory&#34;&gt;Day 1. Number Theory
 &lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;主要讲素数相关的一些内容&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;主要讲素数相关的一些内容&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;lesson&#34;&gt;Lesson
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;课程内容部分&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;课程内容部分&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h4 id=&#34;分段筛法&#34;&gt;分段筛法
 &lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;img src=&#34;https://allergy27.github.io/p/camp_learning/EG1.png&#34;
 	width=&#34;803&#34;
 	height=&#34;372&#34;
-	srcset=&#34;https://allergy27.github.io/p/camp_learning/EG1_hu1581870480270844196.png 480w, https://allergy27.github.io/p/camp_learning/EG1_hu15977332432007367113.png 1024w&#34;
+	srcset=&#34;https://allergy27.github.io/p/camp_learning/EG1_hu_db4503eea4ce3a77.png 480w, https://allergy27.github.io/p/camp_learning/EG1_hu_95b675afcb906952.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;例题&#34;
@@ -2389,7 +2358,7 @@ D：前后缀分解&lt;/p&gt;
 &lt;li&gt;&lt;img src=&#34;https://allergy27.github.io/p/camp_learning/LinearSieve.png&#34;
 	width=&#34;1219&#34;
 	height=&#34;795&#34;
-	srcset=&#34;https://allergy27.github.io/p/camp_learning/LinearSieve_hu11352465864089436937.png 480w, https://allergy27.github.io/p/camp_learning/LinearSieve_hu1236458985850011363.png 1024w&#34;
+	srcset=&#34;https://allergy27.github.io/p/camp_learning/LinearSieve_hu_f11734e57bb841db.png 480w, https://allergy27.github.io/p/camp_learning/LinearSieve_hu_83b4c3d407b945e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;线性筛&#34;
@@ -2406,7 +2375,7 @@ D：前后缀分解&lt;/p&gt;
 &lt;li&gt;&lt;img src=&#34;https://allergy27.github.io/p/camp_learning/SegmentedSieve.png&#34;
 	width=&#34;1208&#34;
 	height=&#34;750&#34;
-	srcset=&#34;https://allergy27.github.io/p/camp_learning/SegmentedSieve_hu15617633778223598511.png 480w, https://allergy27.github.io/p/camp_learning/SegmentedSieve_hu939837451746966900.png 1024w&#34;
+	srcset=&#34;https://allergy27.github.io/p/camp_learning/SegmentedSieve_hu_8e3f0477e13d4fff.png 480w, https://allergy27.github.io/p/camp_learning/SegmentedSieve_hu_81738540bfc4e188.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;分段筛法&#34;
@@ -2435,57 +2404,48 @@ D：前后缀分解&lt;/p&gt;
 &lt;p&gt;$\mu(n) = 0$ n含平方因子&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;另外，稍微改改就变成欧拉函数了&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;另外，稍微改改就变成欧拉函数了&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;截图&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;截图&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;题目大意：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;莫比乌斯函数&lt;/p&gt;
 &lt;h4 id=&#34;burnsides-引理&#34;&gt;Burnside&amp;rsquo;s 引理
 &lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;截图&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;截图&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;题目大意：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;-todo-&lt;/p&gt;
 &lt;h4 id=&#34;polya定理&#34;&gt;Polya定理
 &lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;截图&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;截图&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;题目大意：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;-todo-&lt;/p&gt;
 &lt;h4 id=&#34;miller-robin-素性测试&#34;&gt;Miller-Robin 素性测试
 &lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;截图&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;截图&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;题目大意：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;-todo-&lt;/p&gt;
 &lt;h4 id=&#34;pollard-rho-算法&#34;&gt;Pollard-Rho 算法
 &lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;截图&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;截图&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;题目大意：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;-todo-&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;-todo-&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2 id=&#34;day-2-fft-and-fwht&#34;&gt;Day 2. FFT and FWHT
 &lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;主要讲FFT相关的一些内容&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;主要讲FFT相关的一些内容&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;lesson-1&#34;&gt;Lesson
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;代办&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;代办&lt;/p&gt;&lt;/blockquote&gt;
 </description>
         </item>
         <item>
@@ -2501,8 +2461,7 @@ D：前后缀分解&lt;/p&gt;
 &lt;p&gt;题目类型
 A：签到-模拟
 B：模拟、数学
-C：前后缀分解、前缀和&lt;/p&gt;
-&lt;/blockquote&gt;
+C：前后缀分解、前缀和&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;说明&#34;&gt;说明
 &lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;写给自己看的，全文Rust代码，善用GPT翻译&lt;/li&gt;
@@ -2633,11 +2592,10 @@ C：前后缀分解、前缀和&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
-&lt;h3 id=&#34;ahttpscodeforcescomcontest2028problema&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2028/problem/A&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h3 id=&#34;a&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2028/problem/A&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;A&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;签到题-模拟&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;签到题-模拟&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;题目数据量小，考虑模拟，假设重复足够次数，然后看看会不会碰上即可&lt;/li&gt;
@@ -2715,11 +2673,10 @@ C：前后缀分解、前缀和&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
-&lt;h3 id=&#34;bhttpscodeforcescomcontest2028problemb&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2028/problem/B&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h3 id=&#34;b&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2028/problem/B&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;B&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;模拟+数学&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;模拟+数学&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;反思:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;赛时完全没想到怎么举特例，疯魔了&lt;/li&gt;
@@ -2780,11 +2737,10 @@ C：前后缀分解、前缀和&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
-&lt;h3 id=&#34;chttpscodeforcescomcontest2028problemc&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2028/problem/C&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h3 id=&#34;c&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2028/problem/C&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;C&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;前后缀分解+前缀和&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;前后缀分解+前缀和&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;因为切成&lt;code&gt;m+1&lt;/code&gt;份是固定的，所以枚举从前往后切i个的右端点，以及从右往左切i个的左端点，左右端点之间的值就是能拿到的蛋糕值&lt;/li&gt;
@@ -2888,8 +2844,7 @@ A：签到-二分
 B：博弈论
 C：动态规划
 D：构造
-E：构造&lt;/p&gt;
-&lt;/blockquote&gt;
+E：构造&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;说明&#34;&gt;说明
 &lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;写给自己看的，全文Rust代码，善用GPT翻译&lt;/li&gt;
@@ -3020,11 +2975,10 @@ E：构造&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
-&lt;h3 id=&#34;ahttpscodeforcescomcontest2029problema&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2029/problem/A&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h3 id=&#34;a&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2029/problem/A&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;A&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;签到题-二分/数学&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;签到题-二分/数学&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;code&gt;二分查找/数学&lt;/code&gt; 找第一个满足&lt;code&gt;k倍&amp;gt;r&lt;/code&gt;的数是什么数即可，向下取整&lt;/li&gt;
@@ -3097,11 +3051,10 @@ E：构造&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
-&lt;h3 id=&#34;bhttpscodeforcescomcontest2029problemb&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2029/problem/B&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h3 id=&#34;b&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2029/problem/B&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;B&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;博弈论&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;博弈论&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;反思:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;赛时代码太丑陋了&lt;/li&gt;
@@ -3241,11 +3194,10 @@ E：构造&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
-&lt;h3 id=&#34;chttpscodeforcescomcontest2029problemc&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2029/problem/C&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h3 id=&#34;c&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2029/problem/C&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;C&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;dp&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;dp&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;有最优子结构特征(某个区间跳过与不跳过)可以dp&lt;/li&gt;
@@ -3287,11 +3239,10 @@ E：构造&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
-&lt;h3 id=&#34;dhttpscodeforcescomcontest2029problemd&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2029/problem/D&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h3 id=&#34;d&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2029/problem/D&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;D&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;构造&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;构造&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;有多条边的直接删,每次操作都会使入度减一，所以最多m次可分为单独的点和边&lt;/li&gt;
@@ -3418,11 +3369,10 @@ E：构造&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
-&lt;h3 id=&#34;ehttpscodeforcescomcontest2029probleme&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2029/problem/E&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h3 id=&#34;e&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/2029/problem/E&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;E&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;构造&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;构造&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;反思:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;没能注意到多个素数时一定没有答案&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
@@ -3577,8 +3527,7 @@ B：签到-哈希表
 C：签到—字符串
 D：签到-字符串
 E: 二分练习题
-F: 数学-XOR&lt;/p&gt;
-&lt;/blockquote&gt;
+F: 数学-XOR&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;说明&#34;&gt;说明
 &lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;写给自己看的，全文Rust代码，善用GPT翻译&lt;/li&gt;
@@ -3712,8 +3661,7 @@ F: 数学-XOR&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;a&#34;&gt;A
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;签到题&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;签到题&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;遍历途中看差是不是&lt;code&gt;5&lt;/code&gt;或&lt;code&gt;7&lt;/code&gt;即可&lt;/li&gt;
@@ -3755,8 +3703,7 @@ F: 数学-XOR&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;b&#34;&gt;B
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;签到题&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;签到题&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;哈希表存每个品牌的总和，排序||存最大堆后取出前n大的和即可&lt;/li&gt;
@@ -3820,8 +3767,7 @@ F: 数学-XOR&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;c&#34;&gt;C
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;预处理后即可O(1)处理查询&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;预处理后即可O(1)处理查询&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;预处理一遍一开始有多少&lt;code&gt;1100&lt;/code&gt;&lt;/li&gt;
@@ -3899,8 +3845,7 @@ F: 数学-XOR&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;d&#34;&gt;D
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;输入练习&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;输入练习&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;对循环读入数据的练习&lt;/li&gt;
@@ -4025,8 +3970,7 @@ F: 数学-XOR&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;e&#34;&gt;E
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;二分练习题&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;二分练习题&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;反思:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;题目条件没注意到，每个地区是不递减的，一开始没看到也就没做出来&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
@@ -4105,8 +4049,7 @@ F: 数学-XOR&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;f&#34;&gt;F
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;数学&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;数学&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;异或和有结论
@@ -4201,8 +4144,7 @@ F: 数学-XOR&lt;/p&gt;
 A：签到-思维题
 B：签到-思维题
 C：前缀和+二分
-D：模拟交互题&lt;/p&gt;
-&lt;/blockquote&gt;
+D：模拟交互题&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;说明&#34;&gt;说明
 &lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;写给自己看的，全文Rust代码，善用GPT翻译
@@ -4340,8 +4282,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;a&#34;&gt;A
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;签到题&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;签到题&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;00和11对应关灯，01和10对应开灯&lt;/li&gt;
@@ -4386,8 +4327,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;b&#34;&gt;B
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;求出前缀和数组后，数学运算即得&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;求出前缀和数组后，数学运算即得&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;反思:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;题意没理解正确多花了大量无意义的时间在上面&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
@@ -4453,8 +4393,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;c&#34;&gt;C
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;预处理出前缀和再二分判断即可&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;预处理出前缀和再二分判断即可&lt;/p&gt;&lt;/blockquote&gt;
 &lt;!-- markdownlint-disable-next-line MD033 --&gt;
 &lt;details&gt;
 &lt;!-- markdownlint-disable-next-line MD033 --&gt;
@@ -4729,8 +4668,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;d&#34;&gt;D
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;交互思维题&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;交互思维题&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;理解完题意我们知道只有根节点有多个孩子，其他节点只有一个孩子&lt;/li&gt;
@@ -4825,8 +4763,7 @@ D：模拟交互题&lt;/p&gt;
         <guid>https://allergy27.github.io/p/easy-dp-bag/</guid>
         <description>&lt;h2 id=&#34;背包问题&#34;&gt;背包问题
 &lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;写于2023年，码风较为丑陋，建议优先查看官方推荐题解&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;写于2023年，码风较为丑陋，建议优先查看官方推荐题解&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;背包问题一共分为三种,01背包，完全背包，多重背包。
 其中多重背包要了解二进制优化。&lt;/p&gt;
 &lt;h3 id=&#34;零一背包&#34;&gt;零一背包
@@ -4863,7 +4800,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;img src=&#34;https://allergy27.github.io/p/easy-dp-bag/1.bmp&#34;
 	width=&#34;1607&#34;
 	height=&#34;662&#34;
-	srcset=&#34;https://allergy27.github.io/p/easy-dp-bag/1_hu10435512955190444242.bmp 480w, https://allergy27.github.io/p/easy-dp-bag/1_hu4550332475952793847.bmp 1024w&#34;
+	srcset=&#34;https://allergy27.github.io/p/easy-dp-bag/1_hu_75bf87e0be9930d7.bmp 480w, https://allergy27.github.io/p/easy-dp-bag/1_hu_f4c0b423b8fcfc58.bmp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;图7&#34;
@@ -5100,7 +5037,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;img src=&#34;https://allergy27.github.io/p/problem_list/star.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1494&#34;
-	srcset=&#34;https://allergy27.github.io/p/problem_list/star_hu2054117750230530251.png 480w, https://allergy27.github.io/p/problem_list/star_hu11730327230786488667.png 1024w&#34;
+	srcset=&#34;https://allergy27.github.io/p/problem_list/star_hu_6813ef3f909815e6.png 480w, https://allergy27.github.io/p/problem_list/star_hu_134f6e6831a8bf53.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;star截图&#34;
@@ -5125,8 +5062,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;part-0-试机题&#34;&gt;Part 0 试机题
 &lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;三道试机题目。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;三道试机题目。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1000&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1000 超级玛丽游戏 - Accept&lt;/a&gt;&lt;/li&gt;
@@ -5137,12 +5073,10 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;part-1-入门阶段&#34;&gt;Part 1 入门阶段
 &lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;本部分内容针对入门 OIer ，主要是语言基础内容。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;本部分内容针对入门 OIer ，主要是语言基础内容。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;part-11-从零开始&#34;&gt;Part 1.1 从零开始
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;语言基础题。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;语言基础题。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1421&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1421 小玉买文具 - Accept&lt;/a&gt;&lt;/li&gt;
@@ -5163,8 +5097,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-12-数组基础&#34;&gt;Part 1.2 数组基础
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;数组可以用于存储大量的信息。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;数组可以用于存储大量的信息。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1046&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1046 陶陶摘苹果 - Accept&lt;/a&gt;&lt;/li&gt;
@@ -5179,8 +5112,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-13-字符串基础&#34;&gt;Part 1.3 字符串基础
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;字符串是特殊的数组，但它也有很多自身的特点。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;字符串是特殊的数组，但它也有很多自身的特点。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P5015&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P5015 标题统计 - Accept&lt;/a&gt;&lt;/li&gt;
@@ -5197,8 +5129,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-14-函数递归及递推&#34;&gt;Part 1.4 函数，递归及递推
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;这是初学者最难理解的部分，建议画出递归图来理解递归的过程。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;这是初学者最难理解的部分，建议画出递归图来理解递归的过程。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1028&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1028 数的计算 - Accept&lt;/a&gt;&lt;/li&gt;
@@ -5218,13 +5149,11 @@ D：模拟交互题&lt;/p&gt;
 &lt;h2 id=&#34;part-2-基础算法&#34;&gt;Part 2 基础算法
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;这一部分的内容包含了 OI 中的基础算法，供各位巩固基础。&lt;/p&gt;
-&lt;p&gt;当然，这里面也有一些难度比较高的题目。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;当然，这里面也有一些难度比较高的题目。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;part-21-模拟&#34;&gt;Part 2.1 模拟
 &lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;模拟，顾名思义就是题目要求你做什么你就做什么，这样的题目很考验选手的代码组织能力。&lt;/p&gt;
-&lt;p&gt;这里不仅仅有非常基础的模拟，也有一些非常复杂的题目。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;这里不仅仅有非常基础的模拟，也有一些非常复杂的题目。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1003&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1003 铺地毯 - Accept&lt;/a&gt;&lt;/li&gt;
@@ -5249,8 +5178,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-22-排序算法&#34;&gt;Part 2.2 排序算法
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;通过排序，我们可以将数据有序化，这让我们对数据的处理方便了很多。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;通过排序，我们可以将数据有序化，这让我们对数据的处理方便了很多。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1177&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1177 【模板】快速排序 - Accept&lt;/a&gt;&lt;/li&gt;
@@ -5267,8 +5195,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-23-二分答案&#34;&gt;Part 2.3 二分答案
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;对一个满足单调性质的问题，我们可以采用二分答案的方法来解决。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;对一个满足单调性质的问题，我们可以采用二分答案的方法来解决。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1024&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1024 一元三次方程求解&lt;/a&gt;&lt;/li&gt;
@@ -5287,8 +5214,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-24-分治&#34;&gt;Part 2.4 分治
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;分治，即分而治之，将大问题分解为小问题，分别求解，最后合并结果。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;分治，即分而治之，将大问题分解为小问题，分别求解，最后合并结果。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1226&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1226 【模板】快速幂||取余运算 - Accept&lt;/a&gt;&lt;/li&gt;
@@ -5301,21 +5227,20 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-25-贪心&#34;&gt;Part 2.5 贪心
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;贪心，指的是决策时都采取当前最优解的算法。有的时候，这样做确实可以获得最优解。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;贪心，指的是决策时都采取当前最优解的算法。有的时候，这样做确实可以获得最优解。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1208&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1208 [USACO1.3]Mixing Milk&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P4995&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;P4995 跳跳！&lt;/a&gt;&lt;/li&gt;
+    &gt;P4995 跳跳！ - Accept&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1094&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;P1094 纪念品分组&lt;/a&gt;&lt;/li&gt;
+    &gt;P1094 纪念品分组 - Accept&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1199&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1199 三国游戏&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P2672&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;P2672 推销员&lt;/a&gt;&lt;/li&gt;
+    &gt;P2672 推销员 - Accept&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1080&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;P1080 国王游戏&lt;/a&gt;&lt;/li&gt;
+    &gt;P1080 国王游戏 - Accept&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P2123&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P2123 皇后游戏&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P5521&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -5323,8 +5248,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-26-构造&#34;&gt;Part 2.6 构造
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;构造题是一种形式灵活多样的题型。正是因为这个特点，使得构造题没有一种通用的方法。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;构造题是一种形式灵活多样的题型。正是因为这个特点，使得构造题没有一种通用的方法。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3599&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3599 Koishi Loves Construction&lt;/a&gt;&lt;/li&gt;
@@ -5335,8 +5259,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-27-高精度&#34;&gt;Part 2.7 高精度
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;在 C++ 中，long long 都无法表示我们需要的整数时怎么办？那就用高精度吧！&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;在 C++ 中，long long 都无法表示我们需要的整数时怎么办？那就用高精度吧！&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1601&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1601 A+B Problem（高精） - Accept&lt;/a&gt;&lt;/li&gt;
@@ -5351,8 +5274,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-28-前缀和--差分&#34;&gt;Part 2.8 前缀和 &amp;amp; 差分
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;前缀和是一种重要的预处理，能大大降低查询的时间复杂度，而差分则是一种和前缀和相对的策略。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;前缀和是一种重要的预处理，能大大降低查询的时间复杂度，而差分则是一种和前缀和相对的策略。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3131&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3131 [USACO16JAN]Subsequences Summing to Sevens&lt;/a&gt;&lt;/li&gt;
@@ -5367,13 +5289,11 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;part-3-搜索&#34;&gt;Part 3 搜索
 &lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;搜索其实就是高级的枚举，很多题目都可以用搜索完成。就算不能，搜索也是骗分神器。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;搜索其实就是高级的枚举，很多题目都可以用搜索完成。就算不能，搜索也是骗分神器。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;part-31-深度优先搜索&#34;&gt;Part 3.1 深度优先搜索
 &lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;深度优先搜索（DFS），即按照深度优先的顺序搜索的算法。&lt;/p&gt;
-&lt;p&gt;深度优先搜索一般使用栈来实现。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;深度优先搜索一般使用栈来实现。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1219&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1219 八皇后 - Accept&lt;/a&gt;&lt;/li&gt;
@@ -5389,13 +5309,12 @@ D：模拟交互题&lt;/p&gt;
 &lt;h3 id=&#34;part-32-广度优先搜索&#34;&gt;Part 3.2 广度优先搜索
 &lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;广度优先搜索（BFS），即优先扩展浅层节点，逐渐深入的搜索算法。&lt;/p&gt;
-&lt;p&gt;广度优先搜索一般使用队列来实现。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;广度优先搜索一般使用队列来实现。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1162&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1162 填涂颜色&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1443&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;P1443 马的遍历&lt;/a&gt;&lt;/li&gt;
+    &gt;P1443 马的遍历 - Accept&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3956&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3956 棋盘&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1032&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -5406,8 +5325,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;h3 id=&#34;part-33-记忆化搜索&#34;&gt;Part 3.3 记忆化搜索
 &lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;通过将已经遍历的状态记录下来，从而减少重复的搜索量，这就是记忆化搜索。&lt;/p&gt;
-&lt;p&gt;动态规划的时候，记忆化搜索也是一种高效简洁的实现方式。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;动态规划的时候，记忆化搜索也是一种高效简洁的实现方式。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1514&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1514 引水入城&lt;/a&gt;&lt;/li&gt;
@@ -5420,8 +5338,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-34-搜索的剪枝&#34;&gt;Part 3.4 搜索的剪枝
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;对于一些不必要搜索的部分，我们可以避免访问这些状态，从而提高搜索效率。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;对于一些不必要搜索的部分，我们可以避免访问这些状态，从而提高搜索效率。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1120&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1120 小木棍 ［数据加强版］&lt;/a&gt;&lt;/li&gt;
@@ -5432,8 +5349,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-35-双向搜索&#34;&gt;Part 3.5 双向搜索
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;在搜索时，如果能从初态和终态出发，同时进行搜索，就可以减小搜索树的规模，提高时间效率。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;在搜索时，如果能从初态和终态出发，同时进行搜索，就可以减小搜索树的规模，提高时间效率。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3067&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3067 [USACO12OPEN]Balanced Cow Subsets&lt;/a&gt;&lt;/li&gt;
@@ -5444,8 +5360,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-36-a&#34;&gt;Part 3.6 A*
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;在 BFS 中，如果能设计一个合理的估价函数，就可以更快扩展到最优解。这就是 A*算法。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;在 BFS 中，如果能设计一个合理的估价函数，就可以更快扩展到最优解。这就是 A*算法。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1379&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1379 八数码难题&lt;/a&gt;&lt;/li&gt;
@@ -5453,8 +5368,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;h3 id=&#34;part-37-ida&#34;&gt;Part 3.7 IDA*
 &lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;像 BFS 那样，每次只扩展一层节点，却采用 DFS 方式来遍历搜索树，这就是迭代加深搜索。&lt;/p&gt;
-&lt;p&gt;再加上一个估价函数来减小搜索量，就是 IDA*了。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;再加上一个估价函数来减小搜索量，就是 IDA*了。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P2324&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P2324 [SCOI2005]骑士精神&lt;/a&gt;&lt;/li&gt;
@@ -5463,8 +5377,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-38-dlx&#34;&gt;Part 3.8 DLX
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;算法 X 是通过回溯法求解精确覆盖问题的算法，而删除列这一操作可以使用舞蹈链加速。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;算法 X 是通过回溯法求解精确覆盖问题的算法，而删除列这一操作可以使用舞蹈链加速。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P4929&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P4929 【模板】舞蹈链（DLX）&lt;/a&gt;&lt;/li&gt;
@@ -5473,12 +5386,10 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;part-4-动态规划&#34;&gt;Part 4 动态规划
 &lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;动态规划是一种重要的思维方法，通过利用已有的子问题信息高效求出当前问题的最优解。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;动态规划是一种重要的思维方法，通过利用已有的子问题信息高效求出当前问题的最优解。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;part-41-线性动态规划&#34;&gt;Part 4.1 线性动态规划
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;线性动态规划，即具有线性阶段划分的动态规划。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;线性动态规划，即具有线性阶段划分的动态规划。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1216&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1216 数字三角形 - Accept&lt;/a&gt;&lt;/li&gt;
@@ -5507,8 +5418,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-42-背包动态规划&#34;&gt;Part 4.2 背包动态规划
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;背包动态规划是线性动态规划中特殊的一类，NOIP中考到的次数也不少。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;背包动态规划是线性动态规划中特殊的一类，NOIP中考到的次数也不少。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1048&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1048 采药 - Accept&lt;/a&gt;&lt;/li&gt;
@@ -5533,8 +5443,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-43-区间动态规划&#34;&gt;Part 4.3 区间动态规划
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;区间动态规划一般以区间作为动态规划的阶段。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;区间动态规划一般以区间作为动态规划的阶段。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1880&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1880 [NOI1995]石子合并&lt;/a&gt;&lt;/li&gt;
@@ -5554,8 +5463,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;h3 id=&#34;part-44-树形动态规划&#34;&gt;Part 4.4 树形动态规划
 &lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;树形动态规划，即在树上进行的动态规划。&lt;/p&gt;
-&lt;p&gt;因为树的递归性质，树形动态规划一般都是递归求解的。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;因为树的递归性质，树形动态规划一般都是递归求解的。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1352&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1352 没有上司的舞会&lt;/a&gt;&lt;/li&gt;
@@ -5586,8 +5494,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-45-状态压缩动态规划&#34;&gt;Part 4.5 状态压缩动态规划
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;将一个状态压缩为一个整数（通常为二进制数），就可以在更为方便地进行状态转移的同时，达到节约空间的目的。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;将一个状态压缩为一个整数（通常为二进制数），就可以在更为方便地进行状态转移的同时，达到节约空间的目的。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P2704&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P2704 [NOI2001]炮兵阵地&lt;/a&gt;&lt;/li&gt;
@@ -5616,8 +5523,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-46-倍增优化动态规划&#34;&gt;Part 4.6 倍增优化动态规划
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;利用倍增的方式，我们可以将状态转移的效率大大提高。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;利用倍增的方式，我们可以将状态转移的效率大大提高。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1613&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1613 跑路&lt;/a&gt;&lt;/li&gt;
@@ -5628,8 +5534,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-47-数据结构优化动态规划&#34;&gt;Part 4.7 数据结构优化动态规划
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;利用数据结构来维护已有信息，也可以达到优化状态转移的目的。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;利用数据结构来维护已有信息，也可以达到优化状态转移的目的。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P4719&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P4719 【模板】动态dp&lt;/a&gt;&lt;/li&gt;
@@ -5642,8 +5547,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-48-单调队列优化动态规划&#34;&gt;Part 4.8 单调队列优化动态规划
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;借助单调队列，排除不可能的决策，可以起到优化状态转移的效果。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;借助单调队列，排除不可能的决策，可以起到优化状态转移的效果。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1776&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1776 宝物筛选 - Accept&lt;/a&gt;&lt;/li&gt;
@@ -5666,8 +5570,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-49-斜率优化动态规划&#34;&gt;Part 4.9 斜率优化动态规划
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;通过用单调队列维护一个凸壳，来达到优化转移的目的。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;通过用单调队列维护一个凸壳，来达到优化转移的目的。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P2900&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P2900 [USACO08MAR]Land Acquisition&lt;/a&gt;&lt;/li&gt;
@@ -5688,8 +5591,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-410-决策单调性优化动态规划&#34;&gt;Part 4.10 决策单调性优化动态规划
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;利用决策间的递变规律，也能实现优化状态转移的目的。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;利用决策间的递变规律，也能实现优化状态转移的目的。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3515&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3515 [POI2011]Lightning Conductor&lt;/a&gt;&lt;/li&gt;
@@ -5706,8 +5608,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-411-数位统计类动态规划&#34;&gt;Part 4.11 数位统计类动态规划
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;统计一个区间中满足条件的数有多少，就是数位统计类动态规划。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;统计一个区间中满足条件的数有多少，就是数位统计类动态规划。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P2602&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P2602 [ZJOI2010]数字计数&lt;/a&gt;&lt;/li&gt;
@@ -5730,8 +5631,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-412-轮廓线动态规划&#34;&gt;Part 4.12 轮廓线动态规划
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;轮廓线动态规划（即常说的插头 DP）是一种特殊的状压动态规划，通过以轮廓线为状态来实现状态转移。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;轮廓线动态规划（即常说的插头 DP）是一种特殊的状压动态规划，通过以轮廓线为状态来实现状态转移。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P5056&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P5056 【模板】插头dp&lt;/a&gt;&lt;/li&gt;
@@ -5744,12 +5644,10 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;part-5-字符串&#34;&gt;Part 5 字符串
 &lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;字符串问题有很多自己的特点。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;字符串问题有很多自己的特点。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;part-51-字符串哈希&#34;&gt;Part 5.1 字符串哈希
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;字符串哈希通过牺牲很小的准确率，达到快速进行字符串匹配的效果。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;字符串哈希通过牺牲很小的准确率，达到快速进行字符串匹配的效果。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3370&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3370 【模板】字符串哈希&lt;/a&gt;&lt;/li&gt;
@@ -5760,11 +5658,10 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-52-kmp&#34;&gt;Part 5.2 KMP
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;KMP 算法可以用来解决模式串匹配问题。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;KMP 算法可以用来解决模式串匹配问题。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3375&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;P3375 【模板】KMP字符串匹配&lt;/a&gt;&lt;/li&gt;
+    &gt;P3375 【模板】KMP字符串匹配 - Accept&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P4391&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P4391 [BOI2009]Radio Transmission&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3435&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -5780,8 +5677,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-53-manacher&#34;&gt;Part 5.3 Manacher
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;Manacher 可以在线性时间内求出一个字符串的最长回文子串。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Manacher 可以在线性时间内求出一个字符串的最长回文子串。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3805&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3805 【模板】manacher算法&lt;/a&gt;&lt;/li&gt;
@@ -5792,8 +5688,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-54-trie树&#34;&gt;Part 5.4 Trie树
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;Trie树可以像查字典一样把多个字符串组织到一棵树上。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Trie树可以像查字典一样把多个字符串组织到一棵树上。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3879&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3879 [TJOI2010]阅读理解&lt;/a&gt;&lt;/li&gt;
@@ -5816,8 +5711,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-55-ac自动机&#34;&gt;Part 5.5 AC自动机
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;AC自动机可以看成是 KMP 和 Trie 的结合体，用于解决多字符串匹配问题。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;AC自动机可以看成是 KMP 和 Trie 的结合体，用于解决多字符串匹配问题。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3808&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3808 【模板】AC自动机（简单版）&lt;/a&gt;&lt;/li&gt;
@@ -5842,8 +5736,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-56-回文自动机&#34;&gt;Part 5.6 回文自动机
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;回文自动机是解决回文串问题的有力工具。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;回文自动机是解决回文串问题的有力工具。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P5496&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P5496 【模板】回文自动机（PAM）&lt;/a&gt;&lt;/li&gt;
@@ -5856,8 +5749,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-57-后缀数组&#34;&gt;Part 5.7 后缀数组
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;后缀数组可以解决很多字符串匹配的问题。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;后缀数组可以解决很多字符串匹配的问题。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3809&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3809 【模板】后缀排序&lt;/a&gt;&lt;/li&gt;
@@ -5882,8 +5774,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-58-后缀自动机&#34;&gt;Part 5.8 后缀自动机
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;后缀自动机是一种处理字符串问题的强大工具。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;后缀自动机是一种处理字符串问题的强大工具。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3804&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3804 【模板】后缀自动机&lt;/a&gt;&lt;/li&gt;
@@ -5904,13 +5795,11 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;part-6-数学&#34;&gt;Part 6 数学
 &lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;OI 中的数学知识很多，也有些杂乱。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;OI 中的数学知识很多，也有些杂乱。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;part-61-位运算&#34;&gt;Part 6.1 位运算
 &lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;将十进制整数转换为二进制后，有很多按位运算的运算符。&lt;/p&gt;
-&lt;p&gt;如果能善于利用位运算的一些性质，往往能达到事半功倍的效果。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;如果能善于利用位运算的一些性质，往往能达到事半功倍的效果。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P5657&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P5657 格雷码&lt;/a&gt;&lt;/li&gt;
@@ -5925,12 +5814,10 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-62-整除相关&#34;&gt;Part 6.2 整除相关
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;与整除相关的概念有很多，比较常用的有素数，最大公约数和欧拉函数。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;与整除相关的概念有很多，比较常用的有素数，最大公约数和欧拉函数。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h4 id=&#34;part-621-素数&#34;&gt;Part 6.2.1 素数
 &lt;/h4&gt;&lt;blockquote&gt;
-&lt;p&gt;素数，指的是除 1 和它本身之外没有其他约数的数。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;素数，指的是除 1 和它本身之外没有其他约数的数。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P4718&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P4718 【模板】Pollard-Rho算法&lt;/a&gt;&lt;/li&gt;
@@ -5944,8 +5831,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;h4 id=&#34;part-622-最大公约数&#34;&gt;Part 6.2.2 最大公约数
 &lt;/h4&gt;&lt;blockquote&gt;
 &lt;p&gt;如果两个数有一个共同的约数，那么这个约数就被称为公约数。最大公约数就是指这两个数的所有公约数中，最大的一个。&lt;/p&gt;
-&lt;p&gt;求解两个数的最大公约数，可以采用欧几里得算法解决。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;求解两个数的最大公约数，可以采用欧几里得算法解决。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P5435&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P5435 【模板】快速 GCD&lt;/a&gt;&lt;/li&gt;
@@ -5962,8 +5848,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;part-623-欧拉函数&#34;&gt;Part 6.2.3 欧拉函数
 &lt;/h4&gt;&lt;blockquote&gt;
-&lt;p&gt;欧拉函数 $ \varphi (x) $ 表示了小于 $ x $ 的数字中，与 $ x $ 互质的数字个数。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;欧拉函数 $ \varphi (x) $ 表示了小于 $ x $ 的数字中，与 $ x $ 互质的数字个数。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P2158&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P2158 [SDOI2008]仪仗队&lt;/a&gt;&lt;/li&gt;
@@ -5976,12 +5861,10 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-63-同余方程&#34;&gt;Part 6.3 同余方程
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;求解同余方程往往可以引出不少话题。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;求解同余方程往往可以引出不少话题。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h4 id=&#34;part-631-线性同余方程乘法逆元&#34;&gt;Part 6.3.1 线性同余方程&amp;amp;乘法逆元
 &lt;/h4&gt;&lt;blockquote&gt;
-&lt;p&gt;线性同余方程是同余方程中最基础的内容。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;线性同余方程是同余方程中最基础的内容。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P4549&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P4549 【模板】裴蜀定理&lt;/a&gt;&lt;/li&gt;
@@ -6000,8 +5883,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;part-632-中国剩余定理&#34;&gt;Part 6.3.2 中国剩余定理
 &lt;/h4&gt;&lt;blockquote&gt;
-&lt;p&gt;中国剩余定理可以快速解一元线性同余方程组。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;中国剩余定理可以快速解一元线性同余方程组。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P4777&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P4777 【模板】扩展中国剩余定理（EXCRT）&lt;/a&gt;&lt;/li&gt;
@@ -6017,8 +5899,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;h4 id=&#34;part-633-高次同余方程&#34;&gt;Part 6.3.3 高次同余方程
 &lt;/h4&gt;&lt;blockquote&gt;
 &lt;p&gt;BSGS 算法可以高效计算离散对数。&lt;/p&gt;
-&lt;p&gt;而高次剩余的求解更加复杂，其中二次剩余作为高次剩余中比较特殊的情况，可以使用 Cipolla 法求解。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;而高次剩余的求解更加复杂，其中二次剩余作为高次剩余中比较特殊的情况，可以使用 Cipolla 法求解。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P4195&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P4195 【模板】exBSGS&lt;/a&gt;&lt;/li&gt;
@@ -6031,8 +5912,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-64-博弈论&#34;&gt;Part 6.4 博弈论
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;博弈论考虑游戏中的个体的预测行为和实际行为，并研究它们的优化策略。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;博弈论考虑游戏中的个体的预测行为和实际行为，并研究它们的优化策略。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P2197&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P2197 【模板】nim游戏&lt;/a&gt;&lt;/li&gt;
@@ -6047,8 +5927,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-65-概率与期望&#34;&gt;Part 6.5 概率与期望
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;概率和期望是紧密相连的，OI 中往往会出现和概率期望相关的动态规划问题。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;概率和期望是紧密相连的，OI 中往往会出现和概率期望相关的动态规划问题。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P5104&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P5104 红包发红包&lt;/a&gt;&lt;/li&gt;
@@ -6081,12 +5960,10 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-66-组合数学&#34;&gt;Part 6.6 组合数学
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;组合数学常常与计数问题，概率期望紧密相连。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;组合数学常常与计数问题，概率期望紧密相连。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h4 id=&#34;part-661-排列组合&#34;&gt;Part 6.6.1 排列组合
 &lt;/h4&gt;&lt;blockquote&gt;
-&lt;p&gt;排列组合是组合数学的基础。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;排列组合是组合数学的基础。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3807&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3807 【模板】卢卡斯定理&lt;/a&gt;&lt;/li&gt;
@@ -6111,8 +5988,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;part-662-卡特兰数斯特林数&#34;&gt;Part 6.6.2 卡特兰数&amp;amp;斯特林数
 &lt;/h4&gt;&lt;blockquote&gt;
-&lt;p&gt;卡特兰数和斯特林数是两类常见的组合递推数列。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;卡特兰数和斯特林数是两类常见的组合递推数列。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P5395&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P5395 第二类斯特林数·行&lt;/a&gt;&lt;/li&gt;
@@ -6137,8 +6013,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;part-663-容斥原理&#34;&gt;Part 6.6.3 容斥原理
 &lt;/h4&gt;&lt;blockquote&gt;
-&lt;p&gt;容斥原理常常用于解决集合的计数问题。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;容斥原理常常用于解决集合的计数问题。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P5664&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P5664 Emiya 家今天的饭&lt;/a&gt;&lt;/li&gt;
@@ -6161,12 +6036,10 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-67-线性代数&#34;&gt;Part 6.7 线性代数
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;线性代数主要用于解决线性关系问题。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;线性代数主要用于解决线性关系问题。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h4 id=&#34;part-671-矩阵&#34;&gt;Part 6.7.1 矩阵
 &lt;/h4&gt;&lt;blockquote&gt;
-&lt;p&gt;利用矩阵优化数列递推，可以实现复杂度从线性到对数级的转变。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;利用矩阵优化数列递推，可以实现复杂度从线性到对数级的转变。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3390&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3390 【模板】矩阵快速幂&lt;/a&gt;&lt;/li&gt;
@@ -6193,8 +6066,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;part-672-高斯消元&#34;&gt;Part 6.7.2 高斯消元
 &lt;/h4&gt;&lt;blockquote&gt;
-&lt;p&gt;高斯消元可以用来求解方程组。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;高斯消元可以用来求解方程组。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3389&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3389 【模板】高斯消元法&lt;/a&gt;&lt;/li&gt;
@@ -6211,8 +6083,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;part-673-线性基&#34;&gt;Part 6.7.3 线性基
 &lt;/h4&gt;&lt;blockquote&gt;
-&lt;p&gt;线性基可以求解最大异或和的一类问题。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;线性基可以求解最大异或和的一类问题。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3812&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3812 【模板】线性基&lt;/a&gt;&lt;/li&gt;
@@ -6229,8 +6100,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-68-多项式&#34;&gt;Part 6.8 多项式
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;对多项式的运算进行优化，从而能够解决规模更大的问题。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;对多项式的运算进行优化，从而能够解决规模更大的问题。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3803&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3803 【模板】多项式乘法（FFT）&lt;/a&gt;&lt;/li&gt;
@@ -6283,8 +6153,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-69-莫比乌斯反演&#34;&gt;Part 6.9 莫比乌斯反演
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;运用莫比乌斯反演，我们可以将一些函数转化，从而降低计算难度。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;运用莫比乌斯反演，我们可以将一些函数转化，从而降低计算难度。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3172&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3172 [CQOI2015]选数&lt;/a&gt;&lt;/li&gt;
@@ -6305,8 +6174,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-610-筛法&#34;&gt;Part 6.10 筛法
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;利用数列的性质，有多种筛法可以求出我们想要的信息。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;利用数列的性质，有多种筛法可以求出我们想要的信息。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3383&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3383 【模板】线性筛素数&lt;/a&gt;&lt;/li&gt;
@@ -6325,8 +6193,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-611-线性规划&#34;&gt;Part 6.11 线性规划
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;线性规划是研究线性约束条件下线性目标函数极值问题的方法。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;线性规划是研究线性约束条件下线性目标函数极值问题的方法。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3980&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3980 [NOI2008]志愿者招募&lt;/a&gt;&lt;/li&gt;
@@ -6335,12 +6202,10 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-612-数值方法&#34;&gt;Part 6.12 数值方法
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;在算法领域，有很多求近似值的数值方法。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;在算法领域，有很多求近似值的数值方法。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h4 id=&#34;part-6121-三分法&#34;&gt;Part 6.12.1 三分法
 &lt;/h4&gt;&lt;blockquote&gt;
-&lt;p&gt;三分法可以求出一个单峰 / 单谷函数的极值。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;三分法可以求出一个单峰 / 单谷函数的极值。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3382&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3382 【模板】三分法&lt;/a&gt;&lt;/li&gt;
@@ -6349,8 +6214,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;part-6122-自适应辛普森法&#34;&gt;Part 6.12.2 自适应辛普森法
 &lt;/h4&gt;&lt;blockquote&gt;
-&lt;p&gt;自适应辛普森法可以高效求出给定函数的数值积分。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;自适应辛普森法可以高效求出给定函数的数值积分。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P4525&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P4525 【模板】自适应辛普森法1&lt;/a&gt;&lt;/li&gt;
@@ -6361,8 +6225,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-613-置换群&#34;&gt;Part 6.13 置换群
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;置换群通常用来解决一些涉及“本质不同”的计数问题。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;置换群通常用来解决一些涉及“本质不同”的计数问题。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P4980&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P4980 【模板】Polya定理&lt;/a&gt;&lt;/li&gt;
@@ -6377,12 +6240,10 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;part-7-数据结构&#34;&gt;Part 7 数据结构
 &lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;灵活地运用数据结构可以高效地查询并处理需要的信息。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;灵活地运用数据结构可以高效地查询并处理需要的信息。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;part-71-链表&#34;&gt;Part 7.1 链表
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;在一个数列中高效插入一个元素，链表毫无疑问是最好的选择。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;在一个数列中高效插入一个元素，链表毫无疑问是最好的选择。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1996&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1996 约瑟夫问题&lt;/a&gt;&lt;/li&gt;
@@ -6391,8 +6252,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-72-栈&#34;&gt;Part 7.2 栈
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;栈，是一种后进先出（FILO）的数据结构。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;栈，是一种后进先出（FILO）的数据结构。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1449&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1449 后缀表达式&lt;/a&gt;&lt;/li&gt;
@@ -6405,16 +6265,14 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-73-队列&#34;&gt;Part 7.3 队列
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;队列，是一种先进先出（FIFO）的数据结构。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;队列，是一种先进先出（FIFO）的数据结构。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1540&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1540 机器翻译&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-74-并查集&#34;&gt;Part 7.4 并查集
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;并查集常用于处理一些不相交集合的合并和查询问题。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;并查集常用于处理一些不相交集合的合并和查询问题。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1111&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1111 修复公路 - Accept&lt;/a&gt;&lt;/li&gt;
@@ -6435,13 +6293,12 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-75-二叉堆&#34;&gt;Part 7.5 二叉堆
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;二叉堆是一棵完全二叉树，堆中某个节点的值总是不大于或不小于其父节点的值。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;二叉堆是一棵完全二叉树，堆中某个节点的值总是不大于或不小于其父节点的值。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3378&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3378 【模板】堆&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1090&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;P1090 合并果子&lt;/a&gt;&lt;/li&gt;
+    &gt;P1090 合并果子 - Accept&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1168&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1168 中位数 - Accept&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P2085&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -6453,8 +6310,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-76-st表&#34;&gt;Part 7.6 ST表
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;ST表可以离线查询区间最值。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;ST表可以离线查询区间最值。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3865&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3865 【模板】ST表 - Accept&lt;/a&gt;&lt;/li&gt;
@@ -6475,8 +6331,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-77-树状数组&#34;&gt;Part 7.7 树状数组
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;树状数组是一种简洁高效的树形数据结构。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;树状数组是一种简洁高效的树形数据结构。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3374&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3374 【模板】树状数组 1&lt;/a&gt;&lt;/li&gt;
@@ -6501,11 +6356,10 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-78-线段树&#34;&gt;Part 7.8 线段树
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;线段树的通用性比树状数组更强，可以处理更多涉及区间操作的题目。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;线段树的通用性比树状数组更强，可以处理更多涉及区间操作的题目。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3372&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;P3372 【模板】线段树 1&lt;/a&gt;&lt;/li&gt;
+    &gt;P3372 【模板】线段树 1 - Accept&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3373&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3373 【模板】线段树 2&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P5490&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -6535,8 +6389,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-79-分块&#34;&gt;Part 7.9 分块
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;分块是一种非常通用的暴力方法，虽然效率不如线段树和树状数组，但可以解决很多线段树和树状数组处理不了的问题。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;分块是一种非常通用的暴力方法，虽然效率不如线段树和树状数组，但可以解决很多线段树和树状数组处理不了的问题。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3870&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3870 [TJOI2009]开关&lt;/a&gt;&lt;/li&gt;
@@ -6557,8 +6410,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-710-可并堆&#34;&gt;Part 7.10 可并堆
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;可并堆分为左偏树和配对堆两种，它们都具有堆的性质，且可以高效合并。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;可并堆分为左偏树和配对堆两种，它们都具有堆的性质，且可以高效合并。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3377&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3377 【模板】左偏树（可并堆）&lt;/a&gt;&lt;/li&gt;
@@ -6577,8 +6429,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-711-主席树&#34;&gt;Part 7.11 主席树
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;主席树，即可持久化权值线段树。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;主席树，即可持久化权值线段树。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P2468&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P2468 [SDOI2010]粟粟的书架&lt;/a&gt;&lt;/li&gt;
@@ -6598,8 +6449,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;h3 id=&#34;part-712-平衡树&#34;&gt;Part 7.12 平衡树
 &lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;二叉搜索树可以用来维护有序序列。&lt;/p&gt;
-&lt;p&gt;为了保证查询效率，有多种使二叉搜索树保持平衡的实现方法。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;为了保证查询效率，有多种使二叉搜索树保持平衡的实现方法。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3369&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3369 【模板】普通平衡树&lt;/a&gt;&lt;/li&gt;
@@ -6630,8 +6480,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-713-树链剖分&#34;&gt;Part 7.13 树链剖分
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;树链剖分可以将任意一条树上路径划分成若干条连续的链，并用线段树等数据结构高效维护链上信息。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;树链剖分可以将任意一条树上路径划分成若干条连续的链，并用线段树等数据结构高效维护链上信息。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3384&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3384 【模板】树链剖分&lt;/a&gt;&lt;/li&gt;
@@ -6660,8 +6509,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-714-树套树&#34;&gt;Part 7.14 树套树
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;树套树可以用来维护多维度信息。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;树套树可以用来维护多维度信息。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3380&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3380 【模板】二逼平衡树（树套树）&lt;/a&gt;&lt;/li&gt;
@@ -6684,8 +6532,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-715-动态树&#34;&gt;Part 7.15 动态树
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;Link-Cut Tree 可以用来解决动态树一类问题。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Link-Cut Tree 可以用来解决动态树一类问题。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3690&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3690 【模板】Link Cut Tree （动态树）&lt;/a&gt;&lt;/li&gt;
@@ -6712,8 +6559,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-716-可持久化数据结构&#34;&gt;Part 7.16 可持久化数据结构
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;可持久化数据结构实现了在更新信息的时候保留历史版本。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;可持久化数据结构实现了在更新信息的时候保留历史版本。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3919&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3919 【模板】可持久化数组（可持久化线段树/平衡树）&lt;/a&gt;&lt;/li&gt;
@@ -6730,8 +6576,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-717-k-d-tree&#34;&gt;Part 7.17 K-D Tree
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;K-D Tree 是一种高效处理 $ k $ 维信息的数据结构。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;K-D Tree 是一种高效处理 $ k $ 维信息的数据结构。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P4357&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P4357 [CQOI2016]K远点对&lt;/a&gt;&lt;/li&gt;
@@ -6754,8 +6599,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-718-珂朵莉树&#34;&gt;Part 7.18 珂朵莉树
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;珂朵莉树，是一种基于 &lt;code&gt;std::set&lt;/code&gt; 的暴力数据结构，在数据随机的情况下表现优秀。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;珂朵莉树，是一种基于 &lt;code&gt;std::set&lt;/code&gt; 的暴力数据结构，在数据随机的情况下表现优秀。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P5251&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P5251 [LnOI2019]第二代图灵机&lt;/a&gt;&lt;/li&gt;
@@ -6764,12 +6608,10 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;part-8-图论&#34;&gt;Part 8 图论
 &lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;图论是数学的一个分支，它以图为研究的对象。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;图论是数学的一个分支，它以图为研究的对象。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;part-81-图的存储与遍历&#34;&gt;Part 8.1 图的存储与遍历
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;这里的图论内容都比较简单，涉及图的存储以及遍历图的方式。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;这里的图论内容都比较简单，涉及图的存储以及遍历图的方式。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P2661&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P2661 信息传递&lt;/a&gt;&lt;/li&gt;
@@ -6778,8 +6620,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-82-最短路问题&#34;&gt;Part 8.2 最短路问题
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;很多题目都可以转化为最短路的模型。因此，掌握最短路算法非常重要。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;很多题目都可以转化为最短路的模型。因此，掌握最短路算法非常重要。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3371&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3371 【模板】单源最短路径（弱化版） - Accept&lt;/a&gt;&lt;/li&gt;
@@ -6806,12 +6647,10 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-83-树上问题&#34;&gt;Part 8.3 树上问题
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;作为一种特殊的图，树上的问题具有很多鲜明的特点。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;作为一种特殊的图，树上的问题具有很多鲜明的特点。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h4 id=&#34;part-831-二叉树&#34;&gt;Part 8.3.1 二叉树
 &lt;/h4&gt;&lt;blockquote&gt;
-&lt;p&gt;二叉树是一种特殊的树，它有很多特殊的性质。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;二叉树是一种特殊的树，它有很多特殊的性质。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1087&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1087 FBI树&lt;/a&gt;&lt;/li&gt;
@@ -6829,8 +6668,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;h4 id=&#34;part-832-树的直径&#34;&gt;Part 8.3.2 树的直径
 &lt;/h4&gt;&lt;blockquote&gt;
 &lt;p&gt;树的直径被定义为树上最远的两点间的距离。&lt;/p&gt;
-&lt;p&gt;计算树的直径，可以通过两遍 DFS 解决。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;计算树的直径，可以通过两遍 DFS 解决。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P2195&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P2195 HXY造公园&lt;/a&gt;&lt;/li&gt;
@@ -6846,8 +6684,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;h4 id=&#34;part-833-最近公共祖先&#34;&gt;Part 8.3.3 最近公共祖先
 &lt;/h4&gt;&lt;blockquote&gt;
 &lt;p&gt;两个点的最近公共祖先，即两个点的所有公共祖先中，离根节点最远的一个节点。&lt;/p&gt;
-&lt;p&gt;求解最近公共祖先，常用的方法是树上倍增或者树链剖分。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;求解最近公共祖先，常用的方法是树上倍增或者树链剖分。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3379&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3379 【模板】最近公共祖先（LCA）&lt;/a&gt;&lt;/li&gt;
@@ -6858,8 +6695,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-84-生成树&#34;&gt;Part 8.4 生成树
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;用 $ n-1 $ 条边将图上的 $ n $ 个点连接起来，形成的树就被称为生成树。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;用 $ n-1 $ 条边将图上的 $ n $ 个点连接起来，形成的树就被称为生成树。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3366&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3366 【模板】最小生成树&lt;/a&gt;&lt;/li&gt;
@@ -6876,8 +6712,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-85-拓扑排序&#34;&gt;Part 8.5 拓扑排序
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;将一个有向无环图排序，使得所有排在前面的节点不能依赖于排在后面的节点，这就是拓扑排序。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;将一个有向无环图排序，使得所有排在前面的节点不能依赖于排在后面的节点，这就是拓扑排序。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1113&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1113 杂务&lt;/a&gt;&lt;/li&gt;
@@ -6888,8 +6723,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-86-差分约束&#34;&gt;Part 8.6 差分约束
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;差分约束要解决的问题是：求出一组 $ n $ 元不等式的一组解，使得所有约束关系都能得到满足。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;差分约束要解决的问题是：求出一组 $ n $ 元不等式的一组解，使得所有约束关系都能得到满足。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P5960&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P5960 【模板】差分约束算法&lt;/a&gt;&lt;/li&gt;
@@ -6904,8 +6738,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-87-图的连通性相关&#34;&gt;Part 8.7 图的连通性相关
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;利用 Tarjan 算法，我们可以解决很多与图的连通性相关的问题。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;利用 Tarjan 算法，我们可以解决很多与图的连通性相关的问题。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3387&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3387 【模板】缩点&lt;/a&gt;&lt;/li&gt;
@@ -6930,8 +6763,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-88-二分图&#34;&gt;Part 8.8 二分图
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;二分图上的不少问题都可以转化成网络流解决，当然也有独特的其他方法。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;二分图上的不少问题都可以转化成网络流解决，当然也有独特的其他方法。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3386&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3386 【模板】二分图匹配&lt;/a&gt;&lt;/li&gt;
@@ -6958,12 +6790,10 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-89-网络流&#34;&gt;Part 8.9 网络流
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;网络流是图论中一个重要的分支，很多题目都可以通过建立网络流的模型来解决。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;网络流是图论中一个重要的分支，很多题目都可以通过建立网络流的模型来解决。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h4 id=&#34;part-891-最大流&#34;&gt;Part 8.9.1 最大流
 &lt;/h4&gt;&lt;blockquote&gt;
-&lt;p&gt;最大流，即求网络中最大的流量。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;最大流，即求网络中最大的流量。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3376&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3376 【模板】网络最大流&lt;/a&gt;&lt;/li&gt;
@@ -6989,8 +6819,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;h4 id=&#34;part-892-最小割&#34;&gt;Part 8.9.2 最小割
 &lt;/h4&gt;&lt;blockquote&gt;
 &lt;p&gt;最小割，即求一个边权最小的边集，使得源点和汇点不再连通。&lt;/p&gt;
-&lt;p&gt;可以证明，&lt;strong&gt;最大流=最小割&lt;/strong&gt;。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;可以证明，&lt;strong&gt;最大流=最小割&lt;/strong&gt;。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1345&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1345 [USACO5.4]Telecowmunication&lt;/a&gt;&lt;/li&gt;
@@ -7007,8 +6836,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;part-893-费用流&#34;&gt;Part 8.9.3 费用流
 &lt;/h4&gt;&lt;blockquote&gt;
-&lt;p&gt;在网络流中给边加上一个参数——费用，就出现了费用流。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;在网络流中给边加上一个参数——费用，就出现了费用流。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3381&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3381 【模板】最小费用最大流&lt;/a&gt;&lt;/li&gt;
@@ -7041,8 +6869,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;part-894-上下界网络流&#34;&gt;Part 8.9.4 上下界网络流
 &lt;/h4&gt;&lt;blockquote&gt;
-&lt;p&gt;在网络流问题中给每条边的流量增加一个下界，就有了上下界网络流。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;在网络流问题中给每条边的流量增加一个下界，就有了上下界网络流。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3980&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3980 [NOI2008]志愿者招募&lt;/a&gt;&lt;/li&gt;
@@ -7056,8 +6883,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;h3 id=&#34;part-810-2-sat&#34;&gt;Part 8.10 2-SAT
 &lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;k-SAT 问题的目标是对一些布尔变量赋值，满足限定的条件。&lt;/p&gt;
-&lt;p&gt;在 k-SAT 问题中，2-SAT 问题属于较为容易解决的一类。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;在 k-SAT 问题中，2-SAT 问题属于较为容易解决的一类。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P4782&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P4782 【模板】2-SAT 问题&lt;/a&gt;&lt;/li&gt;
@@ -7070,8 +6896,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-811-点分治&#34;&gt;Part 8.11 点分治
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;点分治是一种可以高效统计树上路径信息的算法。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;点分治是一种可以高效统计树上路径信息的算法。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3806&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3806 【模板】点分治1&lt;/a&gt;&lt;/li&gt;
@@ -7096,8 +6921,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-812-虚树&#34;&gt;Part 8.12 虚树
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;将一些无用的点从树上删去，从而达到降低树的规模的效果。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;将一些无用的点从树上删去，从而达到降低树的规模的效果。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P2495&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P2495 [SDOI2011]消耗战&lt;/a&gt;&lt;/li&gt;
@@ -7110,8 +6934,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-813-矩阵树定理&#34;&gt;Part 8.13 矩阵树定理
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;矩阵树定理可以解决图的生成树计数问题。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;矩阵树定理可以解决图的生成树计数问题。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P4111&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P4111 [HEOI2015]小Z的房间&lt;/a&gt;&lt;/li&gt;
@@ -7124,12 +6947,10 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;part-9-计算几何&#34;&gt;Part 9 计算几何
 &lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;试着用计算机来解决几何问题吧！&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;试着用计算机来解决几何问题吧！&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;part-91-凸包&#34;&gt;Part 9.1 凸包
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;凸包指在平面上能包含所有给定点的最小凸多边形。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;凸包指在平面上能包含所有给定点的最小凸多边形。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P2742&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P2742 【模板】二维凸包&lt;/a&gt;&lt;/li&gt;
@@ -7146,8 +6967,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-92-旋转卡壳&#34;&gt;Part 9.2 旋转卡壳
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;旋转卡壳是一种求出凸包所有对踵点对的算法。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;旋转卡壳是一种求出凸包所有对踵点对的算法。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1452&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1452 Beauty Contest&lt;/a&gt;&lt;/li&gt;
@@ -7156,8 +6976,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-93-半平面交&#34;&gt;Part 9.3 半平面交
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;多个半平面的交集称之为半平面交。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;多个半平面的交集称之为半平面交。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3256&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3256 [JLOI2013]赛车&lt;/a&gt;&lt;/li&gt;
@@ -7174,12 +6993,10 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;part-10-杂项&#34;&gt;Part 10 杂项
 &lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;这里的专题，有很多都难以纳入前面的类别中，故将他们单独列入了杂项。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;这里的专题，有很多都难以纳入前面的类别中，故将他们单独列入了杂项。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;part-101-模拟退火&#34;&gt;Part 10.1 模拟退火
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;模拟退火是一种随机化算法。当一个问题的方案数量极大（甚至是无穷的）而且不是一个单峰函数时，我们常使用模拟退火求解。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;模拟退火是一种随机化算法。当一个问题的方案数量极大（甚至是无穷的）而且不是一个单峰函数时，我们常使用模拟退火求解。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1337&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1337 [JSOI2004]平衡点 / 吊打XXX&lt;/a&gt;&lt;/li&gt;
@@ -7190,8 +7007,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-102-01-分数规划&#34;&gt;Part 10.2 0/1 分数规划
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;0/1 分数规划用来求一个分式的极值。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;0/1 分数规划用来求一个分式的极值。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P4377&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P4377 [USACO18OPEN]Talent Show&lt;/a&gt;&lt;/li&gt;
@@ -7206,12 +7022,10 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-103-离线算法&#34;&gt;Part 10.3 离线算法
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;当题目不要求强制在线时，我们可以一次性读入所有询问来处理。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;当题目不要求强制在线时，我们可以一次性读入所有询问来处理。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h4 id=&#34;part-1031-cdq-分治&#34;&gt;Part 10.3.1 CDQ 分治
 &lt;/h4&gt;&lt;blockquote&gt;
-&lt;p&gt;CDQ 分治是一个基于分治思想的离线算法。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;CDQ 分治是一个基于分治思想的离线算法。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3810&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3810 【模板】三维偏序（陌上花开）&lt;/a&gt;&lt;/li&gt;
@@ -7226,8 +7040,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;part-1032-整体二分&#34;&gt;Part 10.3.2 整体二分
 &lt;/h4&gt;&lt;blockquote&gt;
-&lt;p&gt;整体二分，顾名思义就是把多个查询一起二分解决。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;整体二分，顾名思义就是把多个查询一起二分解决。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1527&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1527 [国家集训队]矩阵乘法&lt;/a&gt;&lt;/li&gt;
@@ -7240,8 +7053,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;part-1033-莫队&#34;&gt;Part 10.3.3 莫队
 &lt;/h4&gt;&lt;blockquote&gt;
-&lt;p&gt;莫队算法可以解决不少离线区间询问问题。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;莫队算法可以解决不少离线区间询问问题。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1494&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1494 [国家集训队]小Z的袜子 /【模板】莫队&lt;/a&gt;&lt;/li&gt;
@@ -7264,8 +7076,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;part-104-奇怪的题目&#34;&gt;Part 10.4 奇怪的题目
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;OI 界中有一些非常规套路的题目，这里放出来分享。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;OI 界中有一些非常规套路的题目，这里放出来分享。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P4920&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P4920 [WC2015]未来程序&lt;/a&gt;&lt;/li&gt;
@@ -7279,12 +7090,10 @@ D：模拟交互题&lt;/p&gt;
 &lt;h3 id=&#34;part-105-非传统题&#34;&gt;Part 10.5 非传统题
 &lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;在 NOI 等比赛中，非传统题正越来越频繁出现。&lt;/p&gt;
-&lt;p&gt;非传统题主要包括以下几类：提交答案题，交互题，通信题。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;非传统题主要包括以下几类：提交答案题，交互题，通信题。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h4 id=&#34;part-1051-提交答案题&#34;&gt;Part 10.5.1 提交答案题
 &lt;/h4&gt;&lt;blockquote&gt;
-&lt;p&gt;给你一些输入，你只需要提交这些输入对应的答案，即为提交答案题。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;给你一些输入，你只需要提交这些输入对应的答案，即为提交答案题。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1335&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1335 [NOI2013]小Q的修炼&lt;/a&gt;&lt;/li&gt;
@@ -7309,8 +7118,7 @@ D：模拟交互题&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;part-1052-交互题&#34;&gt;Part 10.5.2 交互题
 &lt;/h4&gt;&lt;blockquote&gt;
-&lt;p&gt;在交互题中，选手程序需要通过与测评程序交互来完成任务。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;在交互题中，选手程序需要通过与测评程序交互来完成任务。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1733&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P1733 猜数（IO交互版）&lt;/a&gt;&lt;/li&gt;

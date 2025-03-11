@@ -22,8 +22,7 @@ A：前缀和+二分
 B：前缀和+数学
 C：前缀和+字符串
 D：前缀和+思维
-E：前缀和嵌套&lt;/p&gt;
-&lt;/blockquote&gt;
+E：前缀和嵌套&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;说明&#34;&gt;说明
 &lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;Python代码全是由C++版本用GPT转译而来，逻辑上没有问题但不保证是在python下的最优实现&lt;/li&gt;
@@ -105,8 +104,7 @@ E：前缀和嵌套&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;a&#34;&gt;A
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;只需要排序后预处理出前缀和数组并二分查找即可&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;只需要排序后预处理出前缀和数组并二分查找即可&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;最小的两个货物数之和肯定是最小的，我们每次取最小的肯定是最理想的情况，而题目中顺序不影响答案，先排序方便之后二分查找。&lt;/li&gt;
@@ -186,8 +184,7 @@ E：前缀和嵌套&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;b&#34;&gt;B
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;求出前缀和数组后，数学运算即得&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;求出前缀和数组后，数学运算即得&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;预处理出前缀和数组，此时数组的值代表0到索引位置的和为多少，而每隔数组长度个数的和都是不变的，和为&lt;code&gt;qaq[n]&lt;/code&gt;，所以计算出有几段并顺序查找到哪位时和超过&lt;code&gt;x&lt;/code&gt;即可&lt;/li&gt;
@@ -273,8 +270,7 @@ E：前缀和嵌套&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;c&#34;&gt;C
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;前缀和+字符串计数&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;前缀和+字符串计数&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;记录到每个索引前有多少个&lt;code&gt;&amp;quot;AC&amp;quot;&lt;/code&gt;，即前缀和预处理即可&lt;/li&gt;
@@ -374,8 +370,7 @@ E：前缀和嵌套&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;d&#34;&gt;D
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;前缀和+思维&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;前缀和+思维&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;题目不是简单的前缀和，需要动脑子转换一下&lt;/li&gt;
@@ -506,14 +501,13 @@ E：前缀和嵌套&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;e&#34;&gt;E
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;前缀和的嵌套&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;前缀和的嵌套&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;和上题有些类似，但由于实在太不直观，这边需要拿一张图说明一下：
 &lt;img src=&#34;https://allergy27.github.io/p/flashmen_solve_3/E.png&#34;
 	width=&#34;754&#34;
 	height=&#34;718&#34;
-	srcset=&#34;https://allergy27.github.io/p/flashmen_solve_3/E_hu15600862829005306931.png 480w, https://allergy27.github.io/p/flashmen_solve_3/E_hu4527672047712666602.png 1024w&#34;
+	srcset=&#34;https://allergy27.github.io/p/flashmen_solve_3/E_hu_66128c64be1067bf.png 480w, https://allergy27.github.io/p/flashmen_solve_3/E_hu_ebb298050de127f5.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;图&#34;
@@ -744,8 +738,7 @@ C：思维
 D：思维
 E：数学
 F：滑动窗口
-G：思维&lt;/p&gt;
-&lt;/blockquote&gt;
+G：思维&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;说明&#34;&gt;说明
 &lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;Python代码全是由C++版本用GPT转译而来，逻辑上没有问题但不保证是在python下的最优实现&lt;/li&gt;
@@ -827,8 +820,7 @@ G：思维&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;a&#34;&gt;A
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;签到题&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;签到题&lt;/p&gt;&lt;/blockquote&gt;
 &lt;!-- markdownlint-disable-next-line MD033 --&gt;
 &lt;details&gt;
 &lt;!-- markdownlint-disable-next-line MD033 --&gt;
@@ -891,8 +883,7 @@ G：思维&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;b&#34;&gt;B
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;思维题&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;思维题&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;想明白Kosuke获胜n一定是奇数，就好做了&lt;/p&gt;
 &lt;!-- markdownlint-disable-next-line MD033 --&gt;
 &lt;details&gt;
@@ -948,8 +939,7 @@ G：思维&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;c&#34;&gt;C
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;思维题&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;思维题&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;想清楚最多只要一次就行，假如B个数已经为k则为0次，否则B多了就0到i变A,B少了0到i变B。&lt;/p&gt;
 &lt;!-- markdownlint-disable-next-line MD033 --&gt;
 &lt;details&gt;
@@ -1069,8 +1059,7 @@ G：思维&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;d&#34;&gt;D
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;思维题&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;思维题&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;题目翻译有点问题，但是能看出来比赛想要结束一定是由某个人赢了来结束，也就是输出最后一个&lt;/p&gt;
 &lt;!-- markdownlint-disable-next-line MD033 --&gt;
 &lt;details&gt;
@@ -1116,8 +1105,7 @@ G：思维&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;e&#34;&gt;E
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;数学&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;数学&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;先计算2*2的方块，每有两个都会产生7个空位，有剩余就多4个
 再看空位够不够，把1*1个数减去空位再/15即可，不要忘记向上取整&lt;/p&gt;
 &lt;!-- markdownlint-disable-next-line MD033 --&gt;
@@ -1176,8 +1164,7 @@ G：思维&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;f&#34;&gt;F
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;滑动窗口&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;滑动窗口&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;不定长的滑动窗口，每次扩展右端点，扩展到:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;右端点不等于上一个数+1&lt;/li&gt;
@@ -1302,8 +1289,7 @@ G：思维&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h3 id=&#34;g&#34;&gt;G
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;思维题&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;思维题&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;每一位的计算是独立的，而由于是减法运算，也不会出现进位,又$a|b \geq a\&amp;c$,不会出现借位，所以对每一位单独考虑就行，我们列出真值表:&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -1459,8 +1445,7 @@ A：签到题
 B：暴力
 C：模拟、排序
 D：优先队列
-E：BFS&lt;/p&gt;
-&lt;/blockquote&gt;
+E：BFS&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;说明：&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Python代码全是由C++版本用GPT转译而来，逻辑上没有问题但不保证是在python下的最优实现&lt;/li&gt;
