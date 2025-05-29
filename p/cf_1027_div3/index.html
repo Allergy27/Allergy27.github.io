@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="TODO">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="倒开失败">
 <title>CodeForces Round 1027 Div3 A-G 题解</title>
 
 <link rel='canonical' href='https://allergy27.github.io/p/cf_1027_div3/'>
@@ -25,12 +25,12 @@
 </script>
 
 <link rel="stylesheet" href="/scss/style.min.946cca6c6259ef94ac55abfae7c7bf3291ea3ed5eea17ef77500b257217c6710.css"><meta property='og:title' content="CodeForces Round 1027 Div3 A-G 题解">
-<meta property='og:description' content="TODO">
+<meta property='og:description' content="倒开失败">
 <meta property='og:url' content='https://allergy27.github.io/p/cf_1027_div3/'>
 <meta property='og:site_name' content='Allergy的博客'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-05-27T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-05-27T00:00:00&#43;00:00'/>
 <meta name="twitter:title" content="CodeForces Round 1027 Div3 A-G 题解">
-<meta name="twitter:description" content="TODO">
+<meta name="twitter:description" content="倒开失败">
     </head>
     <body class="
     article-page
@@ -312,6 +312,9 @@
         <li><a href="#b">B</a></li>
         <li><a href="#c">C</a></li>
         <li><a href="#d">D</a></li>
+        <li><a href="#e">E</a></li>
+        <li><a href="#f">F</a></li>
+        <li><a href="#g">G</a></li>
       </ol>
     </li>
   </ol>
@@ -350,7 +353,7 @@
     
         
         <h3 class="article-subtitle">
-            TODO
+            倒开失败
         </h3>
         
     </div>
@@ -386,7 +389,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 6 分钟
+                    阅读时长: 1 分钟
                 </time>
             </div>
         
@@ -404,527 +407,132 @@
     <h2 id="前言">前言
 </h2><p><strong>比赛链接：</strong><a class="link" href="https://codeforces.com/contest/2102"  target="_blank" rel="noopener"
     >https://codeforces.com/contest/2102</a></p>
+<p><strong>参考代码：</strong><a class="link" href="https://github.com/Allergy27/Allergy-to-not-study/tree/main/cpp/CF/cf%201027%20div3"  target="_blank" rel="noopener"
+    >https://github.com/Allergy27/Allergy-to-not-study/tree/main/cpp/CF/cf%201027%20div3</a></p>
 <blockquote>
 <p>题目类型
 A：数学
 B：贪心
-C：构造
-D：排序</p></blockquote>
-<p>差半小时搓求逆序对，可惜</p>
-<!-- markdownlint-disable-next-line MD033 -->
-<details>
-<!-- markdownlint-disable-next-line MD033 -->
-<summary>C++模板（除主函数部分）</summary>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
-</span><span class="lnt">9
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;bits/stdc++.h&gt;</span><span class="cp">
-</span></span></span><span class="line"><span class="cl"><span class="cp">#define lowbit(x) ((x) &amp; (-(x)))
-</span></span></span><span class="line"><span class="cl"><span class="cp">#define ln &#39;\n&#39;
-</span></span></span><span class="line"><span class="cl"><span class="cp">#define PII std::pair&lt;int, int&gt;
-</span></span></span><span class="line"><span class="cl"><span class="cp">#define judge(x) std::cout &lt;&lt; ((x) ? &#34;Yes\n&#34; : &#34;No\n&#34;)
-</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
-</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="n">ll</span> <span class="o">=</span> <span class="kt">int64_t</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">inf</span> <span class="o">=</span> <span class="mh">0x3f3f3f3f</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="n">ll</span> <span class="n">ll_inf</span> <span class="o">=</span> <span class="mh">0x3f3f3f3f3f3f3f3f</span><span class="p">;</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div></details>
+C：贪心
+D：排序
+E：排序
+F：排序
+G：排序</p></blockquote>
 <h3 id="a">A
 </h3><blockquote>
-<p>题意：给定四个整数 n 、 m 、 p 和 q</p>
-<p>判断是否存在数组中所有元素的和等于 m ，每 p 个连续元素之和等于 q 的整数数组 $a_1, a_2, \ldots, a_n$ (元素可以是负数)</p></blockquote>
+<p>题意：给定一个数 n</p>
+<p>判断是否可以找到 $ (a + b) ^ 2 \eq n $</p>
+<p>输出 a , b 或报告 -1 代表无法找到</p></blockquote>
 <p><strong>做法:</strong></p>
 <ol>
-<li>数学，每 p 个的和为 q</li>
-<li>那么如果 $m \neq n\div p \times q$</li>
-<li>并且 $ p \mid n$，则不存在</li>
+<li>数学，等价于判断该数是否是完全平方数</li>
+<li>做根号，再乘回去，不相等说明 <code>-1</code></li>
+<li>若相等则输出这个数和 0 的和即可</li>
 </ol>
-<!-- markdownlint-disable-next-line MD033 -->
-<details>
-<!-- markdownlint-disable-next-line MD033 -->
-<summary>点击展开代码</summary>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="n">std</span><span class="o">::</span><span class="n">ios</span><span class="o">::</span><span class="n">sync_with_stdio</span><span class="p">(</span><span class="nb">false</span><span class="p">),</span> <span class="n">std</span><span class="o">::</span><span class="n">cin</span><span class="p">.</span><span class="n">tie</span><span class="p">(</span><span class="k">nullptr</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">_</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="n">std</span><span class="o">::</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">_</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">auto</span> <span class="n">solve</span> <span class="o">=</span> <span class="p">[</span><span class="o">&amp;</span><span class="p">]()</span> <span class="o">-&gt;</span> <span class="kt">void</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">n</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="n">p</span><span class="p">,</span> <span class="n">q</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">std</span><span class="o">::</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">n</span> <span class="o">&gt;&gt;</span> <span class="n">m</span> <span class="o">&gt;&gt;</span> <span class="n">p</span> <span class="o">&gt;&gt;</span> <span class="n">q</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">judge</span><span class="p">(</span><span class="o">!</span><span class="p">(</span><span class="n">n</span> <span class="o">/</span> <span class="n">p</span> <span class="o">*</span> <span class="n">q</span> <span class="o">!=</span> <span class="n">m</span> <span class="o">&amp;&amp;</span> <span class="p">(</span><span class="n">n</span> <span class="o">%</span> <span class="n">p</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)));</span>
-</span></span><span class="line"><span class="cl">    <span class="p">};</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="p">(</span><span class="n">_</span><span class="o">--</span><span class="p">)</span> <span class="n">solve</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="n">std</span><span class="o">::</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">_</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div></details>
 <h3 id="b">B
 </h3><blockquote>
-<p>题意：给你一个数组 $a_1, a_2, \ldots, a_n$</p>
-<p>每次可以将其中的任意数 $a_i := -a_i$</p>
-<p>判断能否让 $a_1$ 变为中位数 即第 $\left\lceil \frac{n}{2} \right\rceil$ 大的数</p></blockquote>
+<p>题意：给定01字符串</p>
+<p>判断将其任意排列后能否可以找到 k 对回文串</p></blockquote>
 <p><strong>做法:</strong></p>
 <ol>
-<li>思维题，先将所有数变绝对值后排序</li>
-<li>如果第一个数 $\leq$ 中位数，则一定可以操作后变中位数</li>
+<li>思维题</li>
+<li>首先注意到答案不会是奇数</li>
+<li>两两各自配对是最大值，</li>
+<li>取较大值 - n/2 得到最小值</li>
+<li>计算答案能否得到即可</li>
 </ol>
-<!-- markdownlint-disable-next-line MD033 -->
-<details>
-<!-- markdownlint-disable-next-line MD033 -->
-<summary>点击展开代码</summary>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="n">std</span><span class="o">::</span><span class="n">ios</span><span class="o">::</span><span class="n">sync_with_stdio</span><span class="p">(</span><span class="nb">false</span><span class="p">),</span> <span class="n">std</span><span class="o">::</span><span class="n">cin</span><span class="p">.</span><span class="n">tie</span><span class="p">(</span><span class="k">nullptr</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">_</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="n">std</span><span class="o">::</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">_</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">auto</span> <span class="n">solve</span> <span class="o">=</span> <span class="p">[</span><span class="o">&amp;</span><span class="p">]()</span> <span class="o">-&gt;</span> <span class="kt">void</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">n</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">std</span><span class="o">::</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">n</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">qwq</span><span class="p">(</span><span class="n">n</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="p">(</span><span class="k">auto</span> <span class="o">&amp;</span><span class="nl">x</span> <span class="p">:</span> <span class="n">qwq</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="n">std</span><span class="o">::</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">x</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="n">x</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">abs</span><span class="p">(</span><span class="n">x</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">tmp</span> <span class="o">=</span> <span class="n">qwq</span><span class="p">[</span><span class="mi">0</span><span class="p">];</span>
-</span></span><span class="line"><span class="cl">        <span class="n">std</span><span class="o">::</span><span class="n">sort</span><span class="p">(</span><span class="n">qwq</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">qwq</span><span class="p">.</span><span class="n">end</span><span class="p">());</span>
-</span></span><span class="line"><span class="cl">        <span class="n">judge</span><span class="p">(</span><span class="n">qwq</span><span class="p">[</span><span class="n">n</span> <span class="o">/</span> <span class="mi">2</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="n">tmp</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="p">};</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="p">(</span><span class="n">_</span><span class="o">--</span><span class="p">)</span> <span class="n">solve</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="n">std</span><span class="o">::</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">_</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div></details>
 <h3 id="c">C
 </h3><blockquote>
-<p>题意：给定n*n网格，其中包含 <code>1 - n*n</code> 的排列</p>
-<p>求出排列后所有子网格的MEX和最大</p></blockquote>
+<p>题意：给定数组，可以进行任意次删除</p>
+<p>不连续的数重新构成新数组，问最多构建多少数组</p></blockquote>
 <p><strong>做法:</strong></p>
 <ol>
-<li>正中央的数会被最多网格包裹，将小的放中间大的放外面</li>
-<li>可以排一个螺旋矩阵</li>
+<li>可以发现每有相隔为2的数答案就加一</li>
+<li>由于题目本来也排好序了，遍历过去即可</li>
 </ol>
-<!-- markdownlint-disable-next-line MD033 -->
-<details>
-<!-- markdownlint-disable-next-line MD033 -->
-<summary>点击展开代码</summary>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
-</span><span class="lnt">28
-</span><span class="lnt">29
-</span><span class="lnt">30
-</span><span class="lnt">31
-</span><span class="lnt">32
-</span><span class="lnt">33
-</span><span class="lnt">34
-</span><span class="lnt">35
-</span><span class="lnt">36
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="n">std</span><span class="o">::</span><span class="n">ios</span><span class="o">::</span><span class="n">sync_with_stdio</span><span class="p">(</span><span class="nb">false</span><span class="p">),</span> <span class="n">std</span><span class="o">::</span><span class="n">cin</span><span class="p">.</span><span class="n">tie</span><span class="p">(</span><span class="k">nullptr</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">_</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="n">std</span><span class="o">::</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">_</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">auto</span> <span class="n">solve</span> <span class="o">=</span> <span class="p">[</span><span class="o">&amp;</span><span class="p">]()</span> <span class="o">-&gt;</span> <span class="kt">void</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">n</span><span class="p">,</span> <span class="n">m</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">std</span><span class="o">::</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">n</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">std</span><span class="o">::</span><span class="n">vector</span> <span class="n">qwq</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="p">(</span><span class="n">n</span><span class="p">));</span>
-</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">num</span> <span class="o">=</span> <span class="n">n</span> <span class="o">*</span> <span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">left</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">right</span> <span class="o">=</span> <span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="n">top</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">bottom</span> <span class="o">=</span> <span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="k">while</span> <span class="p">(</span><span class="n">left</span> <span class="o">&lt;=</span> <span class="n">right</span> <span class="o">&amp;&amp;</span> <span class="n">top</span> <span class="o">&lt;=</span> <span class="n">bottom</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="n">left</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="n">right</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="n">qwq</span><span class="p">[</span><span class="n">top</span><span class="p">][</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">num</span><span class="o">--</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="n">top</span><span class="o">++</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">            <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="n">top</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="n">bottom</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="n">qwq</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">right</span><span class="p">]</span> <span class="o">=</span> <span class="n">num</span><span class="o">--</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="n">right</span><span class="o">--</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">            <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="n">right</span><span class="p">;</span> <span class="n">i</span> <span class="o">&gt;=</span> <span class="n">left</span><span class="p">;</span> <span class="o">--</span><span class="n">i</span><span class="p">)</span> <span class="n">qwq</span><span class="p">[</span><span class="n">bottom</span><span class="p">][</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">num</span><span class="o">--</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="n">bottom</span><span class="o">--</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">            <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="n">bottom</span><span class="p">;</span> <span class="n">i</span> <span class="o">&gt;=</span> <span class="n">top</span><span class="p">;</span> <span class="o">--</span><span class="n">i</span><span class="p">)</span> <span class="n">qwq</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">left</span><span class="p">]</span> <span class="o">=</span> <span class="n">num</span><span class="o">--</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="n">left</span><span class="o">++</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="p">(</span><span class="k">auto</span> <span class="nl">x</span> <span class="p">:</span> <span class="n">qwq</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="k">for</span> <span class="p">(</span><span class="k">auto</span> <span class="nl">y</span> <span class="p">:</span> <span class="n">x</span><span class="p">)</span> <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">y</span> <span class="o">&lt;&lt;</span> <span class="sc">&#39; &#39;</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">ln</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="p">};</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="p">(</span><span class="n">_</span><span class="o">--</span><span class="p">)</span> <span class="n">solve</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="n">std</span><span class="o">::</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">_</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div></details>
 <h3 id="d">D
 </h3><blockquote>
-<p>题意：给定操作 <code>a,b,c,d = c,d,a,b</code></p>
-<p>将数组排序为字典序最小</p></blockquote>
+<p>题意：如何选最小矩形将给定矩形内的数包围</p>
+<p>可以进行一次操作将某个数更换位置</p></blockquote>
 <p><strong>做法:</strong></p>
 <ol>
-<li>奇偶不会改变，单独拿出来</li>
-<li>观察发现每三个数之间是循环移位排序，且不影响奇偶不同的位</li>
-<li>正常排序，逆序对数为奇则交换最后两位</li>
-<li>重新排回去即可</li>
+<li>可以发现无非是要对四个角进行处理</li>
+<li>处理方式有简单复杂之分，考虑下面操作</li>
+<li>先按 x / y 排序，升降各处理一次</li>
+<li>计算排除掉首个元素时的答案</li>
+<li>统计最小值</li>
 </ol>
-<!-- markdownlint-disable-next-line MD033 -->
-<details>
-<!-- markdownlint-disable-next-line MD033 -->
-<summary>点击展开代码（树状数组求逆序对）</summary>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
-</span><span class="lnt">28
-</span><span class="lnt">29
-</span><span class="lnt">30
-</span><span class="lnt">31
-</span><span class="lnt">32
-</span><span class="lnt">33
-</span><span class="lnt">34
-</span><span class="lnt">35
-</span><span class="lnt">36
-</span><span class="lnt">37
-</span><span class="lnt">38
-</span><span class="lnt">39
-</span><span class="lnt">40
-</span><span class="lnt">41
-</span><span class="lnt">42
-</span><span class="lnt">43
-</span><span class="lnt">44
-</span><span class="lnt">45
-</span><span class="lnt">46
-</span><span class="lnt">47
-</span><span class="lnt">48
-</span><span class="lnt">49
-</span><span class="lnt">50
-</span><span class="lnt">51
-</span><span class="lnt">52
-</span><span class="lnt">53
-</span><span class="lnt">54
-</span><span class="lnt">55
-</span><span class="lnt">56
-</span><span class="lnt">57
-</span><span class="lnt">58
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="n">std</span><span class="o">::</span><span class="n">ios</span><span class="o">::</span><span class="n">sync_with_stdio</span><span class="p">(</span><span class="nb">false</span><span class="p">),</span> <span class="n">std</span><span class="o">::</span><span class="n">cin</span><span class="p">.</span><span class="n">tie</span><span class="p">(</span><span class="k">nullptr</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">_</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="n">std</span><span class="o">::</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">_</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">auto</span> <span class="n">solve</span> <span class="o">=</span> <span class="p">[</span><span class="o">&amp;</span><span class="p">]()</span> <span class="o">-&gt;</span> <span class="kt">void</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">n</span><span class="p">,</span> <span class="n">m</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">std</span><span class="o">::</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">n</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="c1">// FenwickTree
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">fen</span><span class="p">(</span><span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="k">auto</span> <span class="n">add</span> <span class="o">=</span> <span class="p">[</span><span class="o">&amp;</span><span class="p">](</span><span class="kt">int</span> <span class="n">i</span><span class="p">,</span> <span class="kt">int</span> <span class="n">w</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">void</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">x</span> <span class="o">=</span> <span class="n">i</span><span class="p">;</span> <span class="n">x</span> <span class="o">&lt;=</span> <span class="n">n</span><span class="p">;</span> <span class="n">x</span> <span class="o">+=</span> <span class="n">lowbit</span><span class="p">(</span><span class="n">x</span><span class="p">))</span> <span class="n">fen</span><span class="p">[</span><span class="n">x</span><span class="p">]</span> <span class="o">+=</span> <span class="n">w</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="p">};</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="k">auto</span> <span class="n">query</span> <span class="o">=</span> <span class="p">[</span><span class="o">&amp;</span><span class="p">](</span><span class="kt">int</span> <span class="n">i</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">int</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="kt">int</span> <span class="n">ans</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">x</span> <span class="o">=</span> <span class="n">i</span><span class="p">;</span> <span class="n">x</span><span class="p">;</span> <span class="n">x</span> <span class="o">-=</span> <span class="n">lowbit</span><span class="p">(</span><span class="n">x</span><span class="p">))</span> <span class="n">ans</span> <span class="o">+=</span> <span class="n">fen</span><span class="p">[</span><span class="n">x</span><span class="p">];</span>
-</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="n">ans</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="p">};</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="k">auto</span> <span class="n">qwq_sort</span> <span class="o">=</span> <span class="p">[</span><span class="o">&amp;</span><span class="p">](</span><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">qwq</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">void</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="n">std</span><span class="o">::</span><span class="n">fill</span><span class="p">(</span><span class="n">fen</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">fen</span><span class="p">.</span><span class="n">end</span><span class="p">(),</span> <span class="mi">0</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">            <span class="kt">int</span> <span class="n">tmp</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">n</span> <span class="o">=</span> <span class="n">qwq</span><span class="p">.</span><span class="n">size</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">            <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">;</span> <span class="o">--</span><span class="n">i</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">                <span class="n">tmp</span> <span class="o">+=</span> <span class="n">query</span><span class="p">(</span><span class="n">qwq</span><span class="p">[</span><span class="n">i</span><span class="p">]);</span>
-</span></span><span class="line"><span class="cl">                <span class="n">add</span><span class="p">(</span><span class="n">qwq</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="mi">1</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">            <span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">            <span class="n">std</span><span class="o">::</span><span class="n">sort</span><span class="p">(</span><span class="n">qwq</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">qwq</span><span class="p">.</span><span class="n">end</span><span class="p">());</span>
-</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">((</span><span class="n">tmp</span> <span class="o">%</span> <span class="mi">2</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="n">n</span> <span class="o">&gt;=</span> <span class="mi">2</span><span class="p">)</span> <span class="n">std</span><span class="o">::</span><span class="n">swap</span><span class="p">(</span><span class="n">qwq</span><span class="p">[</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">],</span> <span class="n">qwq</span><span class="p">[</span><span class="n">n</span> <span class="o">-</span> <span class="mi">2</span><span class="p">]);</span>
-</span></span><span class="line"><span class="cl">        <span class="p">};</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">qwq</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">std</span><span class="o">::</span><span class="n">array</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="p">,</span> <span class="mi">2</span><span class="o">&gt;</span> <span class="n">tmp</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="kt">int</span> <span class="n">x</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="n">std</span><span class="o">::</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">x</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="n">tmp</span><span class="p">[</span><span class="n">i</span> <span class="o">&amp;</span> <span class="mi">1</span><span class="p">].</span><span class="n">emplace_back</span><span class="p">(</span><span class="n">x</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="n">qwq_sort</span><span class="p">(</span><span class="n">tmp</span><span class="p">[</span><span class="mi">0</span><span class="p">]),</span> <span class="n">qwq_sort</span><span class="p">(</span><span class="n">tmp</span><span class="p">[</span><span class="mi">1</span><span class="p">]);</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="n">std</span><span class="o">::</span><span class="n">array</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span> <span class="mi">2</span><span class="o">&gt;</span> <span class="n">cnt</span> <span class="o">=</span> <span class="p">{</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">};</span>
-</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="n">qwq</span><span class="p">.</span><span class="n">emplace_back</span><span class="p">(</span><span class="n">tmp</span><span class="p">[</span><span class="n">i</span> <span class="o">&amp;</span> <span class="mi">1</span><span class="p">][</span><span class="n">cnt</span><span class="p">[</span><span class="n">i</span> <span class="o">&amp;</span> <span class="mi">1</span><span class="p">]</span><span class="o">++</span><span class="p">]);</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">qwq</span><span class="p">[</span><span class="n">n</span> <span class="o">-</span> <span class="mi">4</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">qwq</span><span class="p">[</span><span class="n">n</span> <span class="o">-</span> <span class="mi">2</span><span class="p">])</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="n">std</span><span class="o">::</span><span class="n">swap</span><span class="p">(</span><span class="n">qwq</span><span class="p">[</span><span class="n">n</span> <span class="o">-</span> <span class="mi">4</span><span class="p">],</span> <span class="n">qwq</span><span class="p">[</span><span class="n">n</span> <span class="o">-</span> <span class="mi">2</span><span class="p">]);</span>
-</span></span><span class="line"><span class="cl">            <span class="n">std</span><span class="o">::</span><span class="n">swap</span><span class="p">(</span><span class="n">qwq</span><span class="p">[</span><span class="n">n</span> <span class="o">-</span> <span class="mi">3</span><span class="p">],</span> <span class="n">qwq</span><span class="p">[</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]);</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="p">(</span><span class="k">auto</span> <span class="nl">x</span> <span class="p">:</span> <span class="n">qwq</span><span class="p">)</span> <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">x</span> <span class="o">&lt;&lt;</span> <span class="sc">&#39; &#39;</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">ln</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="p">};</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="p">(</span><span class="n">_</span><span class="o">--</span><span class="p">)</span> <span class="n">solve</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="n">std</span><span class="o">::</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">_</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div></details>
-<!-- markdownlint-disable-next-line MD033 -->
-<details>
-<!-- markdownlint-disable-next-line MD033 -->
-<summary>点击展开代码（归并排序求逆序对）</summary>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
-</span><span class="lnt">28
-</span><span class="lnt">29
-</span><span class="lnt">30
-</span><span class="lnt">31
-</span><span class="lnt">32
-</span><span class="lnt">33
-</span><span class="lnt">34
-</span><span class="lnt">35
-</span><span class="lnt">36
-</span><span class="lnt">37
-</span><span class="lnt">38
-</span><span class="lnt">39
-</span><span class="lnt">40
-</span><span class="lnt">41
-</span><span class="lnt">42
-</span><span class="lnt">43
-</span><span class="lnt">44
-</span><span class="lnt">45
-</span><span class="lnt">46
-</span><span class="lnt">47
-</span><span class="lnt">48
-</span><span class="lnt">49
-</span><span class="lnt">50
-</span><span class="lnt">51
-</span><span class="lnt">52
-</span><span class="lnt">53
-</span><span class="lnt">54
-</span><span class="lnt">55
-</span><span class="lnt">56
-</span><span class="lnt">57
-</span><span class="lnt">58
-</span><span class="lnt">59
-</span><span class="lnt">60
-</span><span class="lnt">61
-</span><span class="lnt">62
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">merge_sort</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;&amp;</span> <span class="n">qwq</span><span class="p">,</span> <span class="kt">int</span> <span class="n">l</span><span class="p">,</span> <span class="kt">int</span> <span class="n">r</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">l</span> <span class="o">&gt;=</span> <span class="n">r</span><span class="p">)</span> <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">mid</span> <span class="o">=</span> <span class="n">l</span> <span class="o">+</span> <span class="p">(</span><span class="n">r</span> <span class="o">-</span> <span class="n">l</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">cnt</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>  <span class="c1">// 统计奇偶性
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="p">(</span><span class="n">cnt</span> <span class="o">+=</span> <span class="n">merge_sort</span><span class="p">(</span><span class="n">qwq</span><span class="p">,</span> <span class="n">l</span><span class="p">,</span> <span class="n">mid</span><span class="p">))</span> <span class="o">%=</span> <span class="mi">2</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="p">(</span><span class="n">cnt</span> <span class="o">+=</span> <span class="n">merge_sort</span><span class="p">(</span><span class="n">qwq</span><span class="p">,</span> <span class="n">mid</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">r</span><span class="p">))</span> <span class="o">%=</span> <span class="mi">2</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="c1">// merge
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">tmp</span><span class="p">(</span><span class="n">r</span> <span class="o">-</span> <span class="n">l</span> <span class="o">+</span> <span class="mi">1</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="n">l</span><span class="p">,</span> <span class="n">j</span> <span class="o">=</span> <span class="n">mid</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">k</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="p">(</span><span class="n">i</span> <span class="o">&lt;=</span> <span class="n">mid</span> <span class="o">&amp;&amp;</span> <span class="n">j</span> <span class="o">&lt;=</span> <span class="n">r</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">qwq</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="n">qwq</span><span class="p">[</span><span class="n">j</span><span class="p">])</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="n">tmp</span><span class="p">[</span><span class="n">k</span><span class="o">++</span><span class="p">]</span> <span class="o">=</span> <span class="n">qwq</span><span class="p">[</span><span class="n">i</span><span class="o">++</span><span class="p">];</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="n">tmp</span><span class="p">[</span><span class="n">k</span><span class="o">++</span><span class="p">]</span> <span class="o">=</span> <span class="n">qwq</span><span class="p">[</span><span class="n">j</span><span class="o">++</span><span class="p">];</span>
-</span></span><span class="line"><span class="cl">            <span class="p">(</span><span class="n">cnt</span> <span class="o">+=</span> <span class="n">mid</span> <span class="o">-</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">%=</span> <span class="mi">2</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="p">(</span><span class="n">i</span> <span class="o">&lt;=</span> <span class="n">mid</span><span class="p">)</span> <span class="n">tmp</span><span class="p">[</span><span class="n">k</span><span class="o">++</span><span class="p">]</span> <span class="o">=</span> <span class="n">qwq</span><span class="p">[</span><span class="n">i</span><span class="o">++</span><span class="p">];</span>
-</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="p">(</span><span class="n">j</span> <span class="o">&lt;=</span> <span class="n">r</span><span class="p">)</span> <span class="n">tmp</span><span class="p">[</span><span class="n">k</span><span class="o">++</span><span class="p">]</span> <span class="o">=</span> <span class="n">qwq</span><span class="p">[</span><span class="n">j</span><span class="o">++</span><span class="p">];</span>
-</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="n">i</span> <span class="o">=</span> <span class="n">l</span><span class="p">,</span> <span class="n">k</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="n">r</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">,</span> <span class="o">++</span><span class="n">k</span><span class="p">)</span> <span class="n">qwq</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">tmp</span><span class="p">[</span><span class="n">k</span><span class="p">];</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">cnt</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">qwq_sort</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;&amp;</span> <span class="n">qwq</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">n</span> <span class="o">=</span> <span class="n">qwq</span><span class="p">.</span><span class="n">size</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">now</span> <span class="o">=</span> <span class="n">merge_sort</span><span class="p">(</span><span class="n">qwq</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">((</span><span class="n">now</span> <span class="o">%</span> <span class="mi">2</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="p">(</span><span class="n">n</span> <span class="o">&gt;=</span> <span class="mi">2</span><span class="p">))</span> <span class="n">std</span><span class="o">::</span><span class="n">swap</span><span class="p">(</span><span class="n">qwq</span><span class="p">[</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">],</span> <span class="n">qwq</span><span class="p">[</span><span class="n">n</span> <span class="o">-</span> <span class="mi">2</span><span class="p">]);</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="n">std</span><span class="o">::</span><span class="n">ios</span><span class="o">::</span><span class="n">sync_with_stdio</span><span class="p">(</span><span class="nb">false</span><span class="p">),</span> <span class="n">std</span><span class="o">::</span><span class="n">cin</span><span class="p">.</span><span class="n">tie</span><span class="p">(</span><span class="k">nullptr</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">_</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="n">std</span><span class="o">::</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">_</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">auto</span> <span class="n">solve</span> <span class="o">=</span> <span class="p">[</span><span class="o">&amp;</span><span class="p">]()</span> <span class="o">-&gt;</span> <span class="kt">void</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">n</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">std</span><span class="o">::</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">n</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">qwq</span><span class="p">(</span><span class="n">n</span><span class="p">),</span> <span class="n">ans</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="p">(</span><span class="k">auto</span><span class="o">&amp;</span> <span class="nl">x</span> <span class="p">:</span> <span class="n">qwq</span><span class="p">)</span> <span class="n">std</span><span class="o">::</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">x</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="k">auto</span> <span class="n">to</span> <span class="o">=</span> <span class="p">[</span><span class="o">&amp;</span><span class="p">](</span><span class="kt">int</span> <span class="n">i</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="n">std</span><span class="o">::</span><span class="n">swap</span><span class="p">(</span><span class="n">ans</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">ans</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">2</span><span class="p">]);</span>
-</span></span><span class="line"><span class="cl">            <span class="n">std</span><span class="o">::</span><span class="n">swap</span><span class="p">(</span><span class="n">ans</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">],</span> <span class="n">ans</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">3</span><span class="p">]);</span>
-</span></span><span class="line"><span class="cl">        <span class="p">};</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="n">std</span><span class="o">::</span><span class="n">vector</span> <span class="n">tmp</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="p">());</span>
-</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="n">tmp</span><span class="p">[</span><span class="n">i</span> <span class="o">&amp;</span> <span class="mi">1</span><span class="p">].</span><span class="n">emplace_back</span><span class="p">(</span><span class="n">qwq</span><span class="p">[</span><span class="n">i</span><span class="p">]);</span>
-</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="n">qwq_sort</span><span class="p">(</span><span class="n">tmp</span><span class="p">[</span><span class="n">i</span><span class="p">]);</span>
-</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">cnt</span><span class="p">[]</span> <span class="o">=</span> <span class="p">{</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">};</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="n">ans</span><span class="p">.</span><span class="n">emplace_back</span><span class="p">(</span><span class="n">tmp</span><span class="p">[</span><span class="n">i</span> <span class="o">&amp;</span> <span class="mi">1</span><span class="p">][</span><span class="n">cnt</span><span class="p">[</span><span class="n">i</span> <span class="o">&amp;</span> <span class="mi">1</span><span class="p">]</span><span class="o">++</span><span class="p">]);</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">ans</span><span class="p">[</span><span class="n">n</span> <span class="o">-</span> <span class="mi">4</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">ans</span><span class="p">[</span><span class="n">n</span> <span class="o">-</span> <span class="mi">2</span><span class="p">])</span> <span class="n">to</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">4</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="p">(</span><span class="k">auto</span> <span class="nl">x</span> <span class="p">:</span> <span class="n">ans</span><span class="p">)</span> <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">x</span> <span class="o">&lt;&lt;</span> <span class="sc">&#39; &#39;</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">ln</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="p">};</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="p">(</span><span class="n">_</span><span class="o">--</span><span class="p">)</span> <span class="n">solve</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">    <span class="n">std</span><span class="o">::</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">_</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div></details>
+<h3 id="e">E
+</h3><blockquote>
+<p>题意：树上的每个点有个值，每次可以向根寻找</p>
+<p>交替减值加值，问每个点最大值为？</p></blockquote>
+<p><strong>做法:</strong></p>
+<ol>
+<li>方法一：
+<ol>
+<li>可以发现是树上DP的经典题</li>
+<li>从根节点向下搜，统计该点的答案</li>
+<li>再比较是否需要向上选取</li>
+<li>向上选取需要比较父亲答案减去值是否为正</li>
+<li>为正说明向上选比较好</li>
+</ol>
+</li>
+<li>方法二：
+<ol>
+<li>可以发现是最大右子段和的模板题</li>
+<li>我们预处理两颗能求解最大子段和的线段树
+<ul>
+<li>对于子段和的解释：
+<ol>
+<li>如果自根向下寻找，那么根节点在左边</li>
+<li>于是根据题目要求，我们求解的是最大右子段和</li>
+<li>线段树维护两个信息，和以及右子段和</li>
+</ol>
+</li>
+<li>对于两颗树的解释：
+<ol>
+<li>如果该节点为奇，所有奇节点的值都为负值</li>
+<li>对于偶节点同理，所以需要两个树来求解</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>接着只需要bfs向下遍历并求解即可</li>
+</ol>
+</li>
+</ol>
+<h3 id="f">F
+</h3><blockquote>
+<p>题意：给定 x y k ，以及操作f(x, a) = x * a , g(x, a) = x / a</p>
+<p>g(x)仅在 x % a == 0 时可用，问最少对 x ,y 几次操作后相等</p></blockquote>
+<p><strong>做法:</strong></p>
+<ol>
+<li>首先最优解一定是将两者变成最小公倍数</li>
+<li>我们 DP 计算如何变成最小公倍数</li>
+<li>首先预处理出因子，然后计算能否转移</li>
+<li>转移的条件是乘上 k 足够大</li>
+<li>由于多组样例下复杂度也许超了，所以最好预处理一下因子</li>
+</ol>
+<h3 id="g">G
+</h3><blockquote>
+<p>题意：给定空数组，以及一个操作可以向数组首或尾添加一个数</p>
+<p>有相同的相邻数会合并为他们的和，问能否通过 k 次操作变为给定数组</p></blockquote>
+<p><strong>做法:</strong></p>
+<ol>
+<li>首先注意到一个数最理想的合并方式一定是若干个奇数底不断合并得来</li>
+<li>这等价于求解其 lowbit ，我们将每个数的 lowbit 预处理出来，并计算奇数底</li>
+<li>由于转移可以从前往后，也可以从后往前，我们需要分解前后缀求解</li>
+<li>先考虑从前往后，我们不难发现两个相同奇数底会产生一定影响
+<ul>
+<li>具体来说，<code>3 6</code> 共有 3 作为奇数底，而此时想要形成 6 就不能是<code>3 3</code></li>
+<li>因为前面的 3 会和其合并</li>
+</ul>
+</li>
+<li>我们通过观察可以发现同底且后面的较大时需要减去前面的 lowbit 值 * 2 再 + 1</li>
+<li>原因可以这么理解：必须以前面的底数乘 lowbit 后的新值乘二去计算新次数</li>
+<li>而至少可以直接将自己摆上</li>
+<li>最后枚举从中间的每个点向左右扩展所需要的次数即可</li>
+</ol>
 
 </section>
 
