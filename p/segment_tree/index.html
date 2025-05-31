@@ -307,7 +307,22 @@
             <nav id="TableOfContents">
   <ol>
     <li><a href="#线段树是什么算法">线段树是什么算法</a></li>
-    <li><a href="#线段树要怎么构建">线段树要怎么构建</a></li>
+    <li><a href="#线段树要怎么构建">线段树要怎么构建</a>
+      <ol>
+        <li><a href="#分治原理">分治原理：</a>
+          <ol>
+            <li><a href="#基础处理">基础处理</a></li>
+            <li><a href="#lazy数组优化区间修改">Lazy数组优化区间修改</a></li>
+          </ol>
+        </li>
+        <li><a href="#如何代码构建">如何代码构建：</a>
+          <ol>
+            <li><a href="#构建思路及实现">构建思路及实现</a></li>
+            <li><a href="#分步理解如何构建">分步理解如何构建</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
     <li><a href="#线段树怎么样应用">线段树怎么样应用</a></li>
   </ol>
 </nav>
@@ -377,7 +392,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 3 分钟
+                    阅读时长: 4 分钟
                 </time>
             </div>
         
@@ -402,7 +417,27 @@
 <p>线段树是利用了分治思想的一种数据结构，可以称之为升级版树状数组</p>
 <p>常用的场景在上面已经介绍，这里不多赘述</p>
 <h2 id="线段树要怎么构建">线段树要怎么构建
-</h2><p>我们需要知道如何构建一颗线段树，按照超级大神 Jiangly 的板子，我们可以将线段树分成下面几部分：</p>
+</h2><h3 id="分治原理">分治原理：
+</h3><p>线段树将区间递归划分为若干子区间，每个节点对应区间预计算信息，将区间操作降低为 O(logn)</p>
+<h4 id="基础处理">基础处理
+</h4><p>考虑将一个数组转换为完全二叉树，即开辟 4 倍空间的数组，然后叶子节点即为节点 i - j 的信息</p>
+<p>我们考虑一对叶子节点，其信息分别为 l - m ， m - r</p>
+<p>而它的父亲表示的即为 l - r 的信息，最后根节点存储的即为 0 - n 的信息</p>
+<p>要实现这样的处理只需要从叶子节点向根节点不断转移即可</p>
+<p>通过这样的处理，对某个区间的处理就变成了从根节点向下搜索，最多只需 O(logn) 的复杂度即可完成：</p>
+<ul>
+<li>区间修改</li>
+<li>区间查询</li>
+<li>单点修改</li>
+</ul>
+<p><em>另：注意到单点查询与区间查询等价，故一般不会去单独实现单点查询</em></p>
+<h4 id="lazy数组优化区间修改">Lazy数组优化区间修改
+</h4><p>如果每次操作都从 0 - n ，且不进行优化，则复杂度达到 O(nq) ，同时拥有较大常数</p>
+<p>我们需要额外的信息来记录每个节点是否有待处理的更改，并只在查询到它的时候更新</p>
+<p>我们将记录这一信息的数组记为 Lazy 数组，其含义如上</p>
+<h3 id="如何代码构建">如何代码构建：
+</h3><h4 id="构建思路及实现">构建思路及实现
+</h4><p>我们需要知道如何构建一颗线段树，按照超级大神 Jiangly 的板子，我们可以将线段树分成下面几部分：</p>
 <ol>
 <li>节点信息存储</li>
 <li>子区间信息合并</li>
@@ -595,6 +630,54 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div></details>
+<h4 id="分步理解如何构建">分步理解如何构建
+</h4><h5 id="step1-节点信息存储">Step1. 节点信息存储
+</h5><p>我们利用一个新的数据结构 Info 去实现节点信息的存储，其包含我们所有需要的信息：</p>
+<p>例如 最大值、最小值、区间和、区间异或、区间乘、最大子段和……</p>
+<h5 id="step2-子区间信息合并">Step2. 子区间信息合并
+</h5><p>这一步即转移的方式，通过重载 <code>operator+</code> 来实现：</p>
+<p>例如 最大值转移<code>c.max = std::max(a.max, b.max)</code>，和转移<code>c.sum = a.sum + b.sum</code></p>
+<p>还需要在向上传递时进行一步合并：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">pull</span><span class="p">(</span><span class="kt">int</span> <span class="n">p</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">    <span class="n">info</span><span class="p">[</span><span class="n">p</span><span class="p">]</span> <span class="o">=</span> <span class="n">info</span><span class="p">[</span><span class="n">p</span> <span class="o">&lt;&lt;</span> <span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">info</span><span class="p">[</span><span class="n">p</span> <span class="o">&lt;&lt;</span> <span class="mi">1</span> <span class="o">|</span> <span class="mi">1</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h5 id="step3-区间修改">Step3. 区间修改
+</h5><p>如果有区间修改，则需要多一步简单的单点修改：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">add</span><span class="p">(</span><span class="kt">int</span> <span class="n">p</span><span class="p">,</span> <span class="n">T</span> <span class="n">v</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">    <span class="n">tag</span><span class="p">[</span><span class="n">p</span><span class="p">]</span> <span class="o">+=</span> <span class="n">v</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">info</span><span class="p">[</span><span class="n">p</span><span class="p">].</span><span class="n">max</span> <span class="o">+=</span> <span class="n">v</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="cm">/* ... */</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>并在向下搜索区间时如果目标区间完全包含该区间则对其应用修改</p>
+<h5 id="step4-区间查询">Step4. 区间查询
+</h5><p>这一步和区间修改相似，都需要应用 <code>push()</code> ，但无需向上传递修改</p>
+<p>先讲解在上一步没有提到的区间划分：</p>
+<p><code>if(l &gt;= tr || r &lt;= tl)</code> 这一步指超出范围了，实际上也不会有这个情况，随便返回即可</p>
+<p><code>if(l &gt;= tl &amp;&amp; r &lt;= tr)</code> 这一步说明已经可以完全覆盖，返回值即可</p>
+<h5 id="step5-单点修改">Step5. 单点修改
+</h5><p>这一步的区间比较不同，因为我们只需要确定到某一个点即可，改为：</p>
+<p><code>if(r - l == x)</code></p>
+<p>以及寻找部分改为一个类似二分的结构，以上就是线段树的构建</p>
 <h2 id="线段树怎么样应用">线段树怎么样应用
 </h2>
 </section>

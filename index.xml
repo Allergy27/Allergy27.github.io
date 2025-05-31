@@ -31,7 +31,27 @@
 &lt;p&gt;线段树是利用了分治思想的一种数据结构，可以称之为升级版树状数组&lt;/p&gt;
 &lt;p&gt;常用的场景在上面已经介绍，这里不多赘述&lt;/p&gt;
 &lt;h2 id=&#34;线段树要怎么构建&#34;&gt;线段树要怎么构建
-&lt;/h2&gt;&lt;p&gt;我们需要知道如何构建一颗线段树，按照超级大神 Jiangly 的板子，我们可以将线段树分成下面几部分：&lt;/p&gt;
+&lt;/h2&gt;&lt;h3 id=&#34;分治原理&#34;&gt;分治原理：
+&lt;/h3&gt;&lt;p&gt;线段树将区间递归划分为若干子区间，每个节点对应区间预计算信息，将区间操作降低为 O(logn)&lt;/p&gt;
+&lt;h4 id=&#34;基础处理&#34;&gt;基础处理
+&lt;/h4&gt;&lt;p&gt;考虑将一个数组转换为完全二叉树，即开辟 4 倍空间的数组，然后叶子节点即为节点 i - j 的信息&lt;/p&gt;
+&lt;p&gt;我们考虑一对叶子节点，其信息分别为 l - m ， m - r&lt;/p&gt;
+&lt;p&gt;而它的父亲表示的即为 l - r 的信息，最后根节点存储的即为 0 - n 的信息&lt;/p&gt;
+&lt;p&gt;要实现这样的处理只需要从叶子节点向根节点不断转移即可&lt;/p&gt;
+&lt;p&gt;通过这样的处理，对某个区间的处理就变成了从根节点向下搜索，最多只需 O(logn) 的复杂度即可完成：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;区间修改&lt;/li&gt;
+&lt;li&gt;区间查询&lt;/li&gt;
+&lt;li&gt;单点修改&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;另：注意到单点查询与区间查询等价，故一般不会去单独实现单点查询&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id=&#34;lazy数组优化区间修改&#34;&gt;Lazy数组优化区间修改
+&lt;/h4&gt;&lt;p&gt;如果每次操作都从 0 - n ，且不进行优化，则复杂度达到 O(nq) ，同时拥有较大常数&lt;/p&gt;
+&lt;p&gt;我们需要额外的信息来记录每个节点是否有待处理的更改，并只在查询到它的时候更新&lt;/p&gt;
+&lt;p&gt;我们将记录这一信息的数组记为 Lazy 数组，其含义如上&lt;/p&gt;
+&lt;h3 id=&#34;如何代码构建&#34;&gt;如何代码构建：
+&lt;/h3&gt;&lt;h4 id=&#34;构建思路及实现&#34;&gt;构建思路及实现
+&lt;/h4&gt;&lt;p&gt;我们需要知道如何构建一颗线段树，按照超级大神 Jiangly 的板子，我们可以将线段树分成下面几部分：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;节点信息存储&lt;/li&gt;
 &lt;li&gt;子区间信息合并&lt;/li&gt;
@@ -224,6 +244,54 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
+&lt;h4 id=&#34;分步理解如何构建&#34;&gt;分步理解如何构建
+&lt;/h4&gt;&lt;h5 id=&#34;step1-节点信息存储&#34;&gt;Step1. 节点信息存储
+&lt;/h5&gt;&lt;p&gt;我们利用一个新的数据结构 Info 去实现节点信息的存储，其包含我们所有需要的信息：&lt;/p&gt;
+&lt;p&gt;例如 最大值、最小值、区间和、区间异或、区间乘、最大子段和……&lt;/p&gt;
+&lt;h5 id=&#34;step2-子区间信息合并&#34;&gt;Step2. 子区间信息合并
+&lt;/h5&gt;&lt;p&gt;这一步即转移的方式，通过重载 &lt;code&gt;operator+&lt;/code&gt; 来实现：&lt;/p&gt;
+&lt;p&gt;例如 最大值转移&lt;code&gt;c.max = std::max(a.max, b.max)&lt;/code&gt;，和转移&lt;code&gt;c.sum = a.sum + b.sum&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;还需要在向上传递时进行一步合并：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-C++&#34; data-lang=&#34;C++&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;pull&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;){&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;info&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;info&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;p&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;info&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;p&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;|&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h5 id=&#34;step3-区间修改&#34;&gt;Step3. 区间修改
+&lt;/h5&gt;&lt;p&gt;如果有区间修改，则需要多一步简单的单点修改：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-C++&#34; data-lang=&#34;C++&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;add&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;T&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;){&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;tag&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;info&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;].&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;max&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;cm&#34;&gt;/* ... */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;并在向下搜索区间时如果目标区间完全包含该区间则对其应用修改&lt;/p&gt;
+&lt;h5 id=&#34;step4-区间查询&#34;&gt;Step4. 区间查询
+&lt;/h5&gt;&lt;p&gt;这一步和区间修改相似，都需要应用 &lt;code&gt;push()&lt;/code&gt; ，但无需向上传递修改&lt;/p&gt;
+&lt;p&gt;先讲解在上一步没有提到的区间划分：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;if(l &amp;gt;= tr || r &amp;lt;= tl)&lt;/code&gt; 这一步指超出范围了，实际上也不会有这个情况，随便返回即可&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;if(l &amp;gt;= tl &amp;amp;&amp;amp; r &amp;lt;= tr)&lt;/code&gt; 这一步说明已经可以完全覆盖，返回值即可&lt;/p&gt;
+&lt;h5 id=&#34;step5-单点修改&#34;&gt;Step5. 单点修改
+&lt;/h5&gt;&lt;p&gt;这一步的区间比较不同，因为我们只需要确定到某一个点即可，改为：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;if(r - l == x)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;以及寻找部分改为一个类似二分的结构，以上就是线段树的构建&lt;/p&gt;
 &lt;h2 id=&#34;线段树怎么样应用&#34;&gt;线段树怎么样应用
 &lt;/h2&gt;</description>
         </item>
