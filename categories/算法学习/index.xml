@@ -7,7 +7,108 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Allergy</copyright>
-        <lastBuildDate>Sat, 31 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://allergy27.github.io/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://allergy27.github.io/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>AtCoder Beginner Contest 408 A-G 题解</title>
+        <link>https://allergy27.github.io/p/abc_406/</link>
+        <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://allergy27.github.io/p/abc_406/</guid>
+        <description>&lt;h2 id=&#34;前言&#34;&gt;前言
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;比赛链接：&lt;/strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://atcoder.jp/contests/abc406&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://atcoder.jp/contests/abc406&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;参考代码：&lt;/strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/Allergy27/Allergy-to-not-study/tree/main/cpp/Atcoder/abc%20408&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/Allergy27/Allergy-to-not-study/tree/main/cpp/Atcoder/abc%20408&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;题目类型
+A：签到
+B：Set
+C：差分
+D：构造
+E：位运算 + DSU
+F：数据结构优化DP
+G：数学&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;a&#34;&gt;A
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;题意：给定一个数组，判断有无差值大于 S&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;按题意寻找即可，注意判断首个数字与 0 的差值&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;b&#34;&gt;B
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;题意：将给定数组 A 升序排序后去重&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;std::sort&lt;/code&gt; + &lt;code&gt;std::unique&lt;/code&gt; / &lt;code&gt;std::set&lt;/code&gt; + &lt;code&gt;auto : &lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;c&#34;&gt;C
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;题意：n 长度数组，有 m 次操作，每次操作将区间&lt;code&gt;[l, r]&lt;/code&gt; + 1 ，求数组最小值&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;差分数组，操作后一次遍历找到最小值即可&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;d&#34;&gt;D
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;题意：给定 0 1 字符串，每次操作可以让某位上 $\xor 1$&lt;/p&gt;
+&lt;p&gt;问最少多少次让所有 1 连续 （可以没有1）&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;转化为找某区间 [l, r] 全是 1&lt;/li&gt;
+&lt;li&gt;由于最终答案 = 区间内 0 + 区间外 1
+&lt;ul&gt;
+&lt;li&gt;我们统计完 1 的总数 cnt&lt;/li&gt;
+&lt;li&gt;将 [l, r] 内 1 的数量记为 X ，0 为 Y 即 r - l - X&lt;/li&gt;
+&lt;li&gt;进一步，可以将答案表示为 op = cnt - X + Y = sum + r - l - 2X;&lt;/li&gt;
+&lt;li&gt;我们预处理前缀和，其中 1 的贡献为 1 ，0 为 -1&lt;/li&gt;
+&lt;li&gt;而 i - qwq[i] &amp;raquo; 1 的含义即为 [0, i) 中 1 的数量&lt;/li&gt;
+&lt;li&gt;那么 [l, r) 的 1 的数量即为 X =  r - qwq[r] - l + qwq[l] &amp;raquo; 1&lt;/li&gt;
+&lt;li&gt;那么 op = sum + r - l - r + l - qwq[l] + qwq[r] = sum + qwq[r] - qwq[l]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;我们只需要最小化 qwq[r] - qwq[l] 即可&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;e&#34;&gt;E
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;题意：求从 1 到 n 的最短路，不同的是，边权的累加方式改为按位或&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;按位遍历可以做到约 30 * (N + M) ，考虑按位去遍历&lt;/li&gt;
+&lt;li&gt;问题转化为求解是否有一条路可以让某位不取 1&lt;/li&gt;
+&lt;li&gt;贪心去想，我们希望高位尽可能为 0 ，于是从高向低遍历，先让该位为 0&lt;/li&gt;
+&lt;li&gt;走到终点的过程中，每个点一定要是 ans | w = ans ，即不会对答案产生影响的路径&lt;/li&gt;
+&lt;li&gt;如果存在这样的路径说明该位可以为 0&lt;/li&gt;
+&lt;li&gt;因为过程中需要检查起点能否走到终点，即判断是否连通，可以用并查集解决&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;f&#34;&gt;F
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;题意：给定一个长度为 n 排列，代表一堆脚手架的高度&amp;gt;&lt;/p&gt;
+&lt;p&gt;每次可以寻找水平差不超过 r ，高度差超过 d 的脚手架跳&lt;/p&gt;
+&lt;p&gt;问最多跳几次&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;DP ，我们从矮的向上转移，最后寻找次数最大的即可&lt;/li&gt;
+&lt;li&gt;我们先将当前点 - d 的 dp 大小更新为该点
+&lt;ul&gt;
+&lt;li&gt;这个当前点 - d 不会再被更新了，在线段树更新其值&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;遍历当前点左右，找水平距离不超过 r 的最大值&lt;/li&gt;
+&lt;li&gt;不断更新得到最大值&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;g&#34;&gt;G
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;题意：找最小 q 满足 存在 p 使 $\displaystyle \frac AB &lt;\frac pq &lt; \frac CD$&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;做法:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;注意到 $q \neq 1$ 时，$p \eq 1$&lt;/li&gt;
+&lt;li&gt;又如果右边大于 1 ，那么一定可以选择 q = 1&lt;/li&gt;
+&lt;li&gt;如果右边小于 1 ，则可以交换 p, q&lt;/li&gt;
+&lt;li&gt;递归求解即可&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        <item>
         <title>高级数据结构-并查集</title>
         <link>https://allergy27.github.io/p/union_find_set/</link>
         <pubDate>Sat, 31 May 2025 00:00:00 +0000</pubDate>
